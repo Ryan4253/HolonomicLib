@@ -10,8 +10,8 @@
     <member refid="classHolonomicLib_1_1AsyncHolonomicChassisController_1ae926a61b5d1bb75d978914fe173f73ab" kind="variable"><name>timer</name></member>
     <member refid="classHolonomicLib_1_1AsyncHolonomicChassisController_1a3cc8ebdf34757bfbf44bb7f8799b466e" kind="variable"><name>trajectory</name></member>
     <member refid="classHolonomicLib_1_1AsyncHolonomicChassisController_1a33367b32d444678c890b2c326f0c5a9a" kind="variable"><name>timedTrajectory</name></member>
-    <member refid="classHolonomicLib_1_1AsyncHolonomicChassisController_1aacf390977de28b9a0fa2f59a977419eb" kind="variable"><name>endPose</name></member>
-    <member refid="classHolonomicLib_1_1AsyncHolonomicChassisController_1a8ddc964faf9dd6942305e6fbb2a783c1" kind="variable"><name>currentPose</name></member>
+    <member refid="classHolonomicLib_1_1AsyncHolonomicChassisController_1af14d0dca89b59aae206439e02ad33fa0" kind="variable"><name>endPose</name></member>
+    <member refid="classHolonomicLib_1_1AsyncHolonomicChassisController_1a8a25635a655c6aba0f88edd2c77c04fe" kind="variable"><name>currentPose</name></member>
     <member refid="classHolonomicLib_1_1AsyncHolonomicChassisController_1a72d773d7ee90e1204618ecaaccae9cc9" kind="variable"><name>isTimedTrajectory</name></member>
     <member refid="classHolonomicLib_1_1AsyncHolonomicChassisController_1aa54abc5771999cf9d0308ee322a5ea6d" kind="variable"><name>index</name></member>
     <member refid="classHolonomicLib_1_1AsyncHolonomicChassisController_1a11d2dd008802aecd56e3a0d4b34e8369" kind="variable"><name>delayTime</name></member>
@@ -20,13 +20,13 @@
     <member refid="classHolonomicLib_1_1AsyncHolonomicChassisController_1ae24362f0e83484242658d5adc7c54304" kind="function"><name>loop</name></member>
     <member refid="classHolonomicLib_1_1AsyncHolonomicChassisController_1ae1edcd9d7d6bd7ebaef38acc0096bbb7" kind="function"><name>resetControllers</name></member>
     <member refid="classHolonomicLib_1_1AsyncHolonomicChassisController_1ac19e10d15a6a3662094b5913c98fcd48" kind="function"><name>setControllerSampleTime</name></member>
-    <member refid="classHolonomicLib_1_1AsyncHolonomicChassisController_1abe2b624eb3ec3efb0f5715d826ad93c1" kind="function"><name>setTarget</name></member>
+    <member refid="classHolonomicLib_1_1AsyncHolonomicChassisController_1a2ae2a34e39723d4717f917be63f695f7" kind="function"><name>setTarget</name></member>
     <member refid="classHolonomicLib_1_1AsyncHolonomicChassisController_1a3609f4c1c91dfee3f12b41b620ff0a82" kind="function"><name>setTarget</name></member>
     <member refid="classHolonomicLib_1_1AsyncHolonomicChassisController_1a388a64ffd23b7a3f3d8d38fb247ae6ab" kind="function"><name>setTarget</name></member>
     <member refid="classHolonomicLib_1_1AsyncHolonomicChassisController_1a2cbd8303b80c220e95c1a7cb72fcf78d" kind="function"><name>stop</name></member>
     <member refid="classHolonomicLib_1_1AsyncHolonomicChassisController_1a0816021af47ab98099d2944712c8d35c" kind="function"><name>waitUntilSettled</name></member>
-    <member refid="classHolonomicLib_1_1AsyncHolonomicChassisController_1ac24f421fceda62040124c2fcfa61e394" kind="function"><name>setPose</name></member>
-    <member refid="classHolonomicLib_1_1AsyncHolonomicChassisController_1a3d0965b11e7593e2bd83116fcf17815d" kind="function"><name>getPose</name></member>
+    <member refid="classHolonomicLib_1_1AsyncHolonomicChassisController_1a0f6e8f43aee708e1050f221f39bf698d" kind="function"><name>setPose</name></member>
+    <member refid="classHolonomicLib_1_1AsyncHolonomicChassisController_1abcb63fa77f9f510d164cd03bd37205c8" kind="function"><name>getPose</name></member>
     <member refid="classHolonomicLib_1_1AsyncHolonomicChassisController_1a0577b6fa6502e975d93b0ec96458351d" kind="function"><name>isSettled</name></member>
   </compound>
   <compound refid="classHolonomicLib_1_1AsyncHolonomicChassisControllerBuilder" kind="class"><name>HolonomicLib::AsyncHolonomicChassisControllerBuilder</name>
@@ -45,17 +45,89 @@
     <member refid="classHolonomicLib_1_1AsyncHolonomicChassisControllerBuilder_1af4cb4f036b2fe76fd46b414dbad27ad5" kind="function"><name>withTurnSettleParameters</name></member>
     <member refid="classHolonomicLib_1_1AsyncHolonomicChassisControllerBuilder_1a5b6a56ec82a7def66fc20910a09a819e" kind="function"><name>build</name></member>
   </compound>
-  <compound refid="structHolonomicLib_1_1Pose2D" kind="struct"><name>HolonomicLib::Pose2D</name>
-    <member refid="structHolonomicLib_1_1Pose2D_1a3d6358038f364d1481fdfcae68ec3703" kind="variable"><name>x</name></member>
-    <member refid="structHolonomicLib_1_1Pose2D_1a86bc4b9cc0d8b1de84b39caf757a35cf" kind="variable"><name>y</name></member>
-    <member refid="structHolonomicLib_1_1Pose2D_1aed8ee64b862a6f9fe28b624347db772a" kind="variable"><name>theta</name></member>
-    <member refid="structHolonomicLib_1_1Pose2D_1a1a1e4b3ce6e1f8f7c12608807b7e92bd" kind="function"><name>Pose2D</name></member>
-    <member refid="structHolonomicLib_1_1Pose2D_1a92c346fc3b144f908f1f1ea274f18799" kind="function"><name>Pose2D</name></member>
-    <member refid="structHolonomicLib_1_1Pose2D_1a840a717045c6bf1d4b703c9359606fb5" kind="function"><name>Pose2D</name></member>
-    <member refid="structHolonomicLib_1_1Pose2D_1afb6db88b63e6b29abcfbefc9f39db8ad" kind="function"><name>Pose2D</name></member>
-    <member refid="structHolonomicLib_1_1Pose2D_1ac334e2029753ac43ff165c3832fac854" kind="function"><name>Pose2D</name></member>
-    <member refid="structHolonomicLib_1_1Pose2D_1ac60e5df86ba3e7d8b64a393fca703dbf" kind="function"><name>distanceTo</name></member>
-    <member refid="structHolonomicLib_1_1Pose2D_1a74c1e70295f615f9d07a062333a96bb0" kind="function"><name>angleTo</name></member>
+  <compound refid="classHolonomicLib_1_1CubicBezier" kind="class"><name>HolonomicLib::CubicBezier</name>
+    <member refid="classHolonomicLib_1_1CubicBezier_1a64a2448d63209f5bf2ae1b6ab20d41c8" kind="variable"><name>start</name></member>
+    <member refid="classHolonomicLib_1_1CubicBezier_1a4fd00375ff8d65344072e4f7175460e7" kind="variable"><name>control1</name></member>
+    <member refid="classHolonomicLib_1_1CubicBezier_1abd83832b003de723f688cfcba0bfe694" kind="variable"><name>control2</name></member>
+    <member refid="classHolonomicLib_1_1CubicBezier_1acb13e22c26ba59017832a7e49d4239ee" kind="variable"><name>end</name></member>
+    <member refid="classHolonomicLib_1_1CubicBezier_1a2d63b60f25eb801c31f4c12792869a30" kind="function"><name>CubicBezier</name></member>
+    <member refid="classHolonomicLib_1_1CubicBezier_1ac693f1197f18cb92dc7c63e65b0259ad" kind="function"><name>CubicBezier</name></member>
+    <member refid="classHolonomicLib_1_1CubicBezier_1a521e443bba0351ea7089489196d2c2c0" kind="function"><name>getPoint</name></member>
+    <member refid="classHolonomicLib_1_1CubicBezier_1af4afc4cf9541a594f7a40645c3e5dde2" kind="function"><name>generate</name></member>
+  </compound>
+  <compound refid="classHolonomicLib_1_1DiscretePath" kind="class"><name>HolonomicLib::DiscretePath</name>
+    <member refid="classHolonomicLib_1_1DiscretePath_1af88fcb7005be9dd8b301906ba84db4b5" kind="variable"><name>path</name></member>
+    <member refid="classHolonomicLib_1_1DiscretePath_1a73504534a615f9dac8cb70fd52adb996" kind="function"><name>DiscretePath</name></member>
+    <member refid="classHolonomicLib_1_1DiscretePath_1a0af6b6cd36606b66163c5f9e00a1bb8b" kind="function"><name>DiscretePath</name></member>
+    <member refid="classHolonomicLib_1_1DiscretePath_1a9aee5b3f13cac2d21c53c7e67204ca75" kind="function"><name>DiscretePath</name></member>
+    <member refid="classHolonomicLib_1_1DiscretePath_1a220b69d545ff16ef84d19f61d8e51b08" kind="function"><name>~DiscretePath</name></member>
+    <member refid="classHolonomicLib_1_1DiscretePath_1ae0b144ee982a61cbc1d23c320d46b4de" kind="function"><name>operator+</name></member>
+    <member refid="classHolonomicLib_1_1DiscretePath_1ac48dfbfc7a10fc18d32b7dfb08684fd4" kind="function"><name>operator+</name></member>
+    <member refid="classHolonomicLib_1_1DiscretePath_1a2e8a83df2fd4554c6e90d3b24321cda6" kind="function"><name>operator+=</name></member>
+    <member refid="classHolonomicLib_1_1DiscretePath_1a5907344801b4211b3752a6f3efb59c8d" kind="function"><name>operator+=</name></member>
+    <member refid="classHolonomicLib_1_1DiscretePath_1a038ec9e5c73d0e2408c75799f8546cf7" kind="function"><name>getPoint</name></member>
+    <member refid="classHolonomicLib_1_1DiscretePath_1a31be63efcdd7aa150e3cdc59607cc75a" kind="function"><name>operator[]</name></member>
+    <member refid="classHolonomicLib_1_1DiscretePath_1ac56f2e0912f142471bc7de3ff447cf5a" kind="function"><name>size</name></member>
+  </compound>
+  <compound refid="structHolonomicLib_1_1CubicBezier_1_1Knot" kind="struct"><name>HolonomicLib::CubicBezier::Knot</name>
+    <member refid="structHolonomicLib_1_1CubicBezier_1_1Knot_1ae2e7bea48dd00f741be608902043ebcf" kind="variable"><name>x</name></member>
+    <member refid="structHolonomicLib_1_1CubicBezier_1_1Knot_1a93ea8bd1befedf2a93d9e692df3762b0" kind="variable"><name>y</name></member>
+    <member refid="structHolonomicLib_1_1CubicBezier_1_1Knot_1ae7e9487102d6a3229222f464626fef88" kind="variable"><name>angle</name></member>
+    <member refid="structHolonomicLib_1_1CubicBezier_1_1Knot_1ab87ea7b88c561648bf3e9f6048cde17f" kind="variable"><name>mag</name></member>
+    <member refid="structHolonomicLib_1_1CubicBezier_1_1Knot_1a1d75d648128efcea6233cb2d9d8499c5" kind="function"><name>Knot</name></member>
+  </compound>
+  <compound refid="classHolonomicLib_1_1Pose" kind="class"><name>HolonomicLib::Pose</name>
+    <member refid="classHolonomicLib_1_1Pose_1a7d4b4baef342a824dc37573f0db7899c" kind="variable"><name>translation</name></member>
+    <member refid="classHolonomicLib_1_1Pose_1af82808bb7fbaefbe9950edaf71a81a1e" kind="variable"><name>rotation</name></member>
+    <member refid="classHolonomicLib_1_1Pose_1aae0c4fcdb51a29b39727563b7b95d9de" kind="function"><name>Pose</name></member>
+    <member refid="classHolonomicLib_1_1Pose_1a6952b21767ec0a335003777c797fb010" kind="function"><name>Pose</name></member>
+    <member refid="classHolonomicLib_1_1Pose_1a814cd879d0a087f4670b67ff7f517c40" kind="function"><name>Pose</name></member>
+    <member refid="classHolonomicLib_1_1Pose_1a310c28ab1667831839092963fd84b4d6" kind="function"><name>Pose</name></member>
+    <member refid="classHolonomicLib_1_1Pose_1a8dfdb83c52b1e2ded58f8e0d5d497e42" kind="function"><name>Pose</name></member>
+    <member refid="classHolonomicLib_1_1Pose_1a26d73e42e81697e05107ee82a496b492" kind="function"><name>Pose</name></member>
+    <member refid="classHolonomicLib_1_1Pose_1ae1b8edd0acefbe6da254306f93df7e25" kind="function"><name>~Pose</name></member>
+    <member refid="classHolonomicLib_1_1Pose_1a319090c178940ae15e807ca6e043a087" kind="function"><name>getTranslation</name></member>
+    <member refid="classHolonomicLib_1_1Pose_1afd4e383feb9b5a892ff3ec46659eae1d" kind="function"><name>getRotation</name></member>
+    <member refid="classHolonomicLib_1_1Pose_1aab9ca116e22a2f3f49af8c749031ed5a" kind="function"><name>X</name></member>
+    <member refid="classHolonomicLib_1_1Pose_1abcf67e42436a2c894594a9194d9d93ea" kind="function"><name>Y</name></member>
+    <member refid="classHolonomicLib_1_1Pose_1a6e9b98815618e23a02cbbe6216393572" kind="function"><name>Theta</name></member>
+    <member refid="classHolonomicLib_1_1Pose_1a70445fa892855b7a1cd30e054b733ec7" kind="function"><name>operator==</name></member>
+    <member refid="classHolonomicLib_1_1Pose_1a0c5b6d3444d3d3e74fd24f224906986d" kind="function"><name>operator!=</name></member>
+    <member refid="classHolonomicLib_1_1Pose_1a85f9e1cfaca14bbff057385367bee855" kind="function"><name>operator=</name></member>
+    <member refid="classHolonomicLib_1_1Pose_1a12f855e3ed77513e9587f06f9b3d5515" kind="function"><name>angleTo</name></member>
+  </compound>
+  <compound refid="classHolonomicLib_1_1Rotation" kind="class"><name>HolonomicLib::Rotation</name>
+    <member refid="classHolonomicLib_1_1Rotation_1a37ec236d3d557c1b59d8b201fe955fb8" kind="variable"><name>theta</name></member>
+    <member refid="classHolonomicLib_1_1Rotation_1a855cb9a398b00dec9c7f034fd2d14702" kind="variable"><name>cosine</name></member>
+    <member refid="classHolonomicLib_1_1Rotation_1afeb2de6a182b3f5fb706952a933fbc86" kind="variable"><name>sine</name></member>
+    <member refid="classHolonomicLib_1_1Rotation_1adc2f58e1d6942b5c3526c868fc35d605" kind="function"><name>Rotation</name></member>
+    <member refid="classHolonomicLib_1_1Rotation_1ac76019aac5cd8e18d3141625e1e67c3a" kind="function"><name>Rotation</name></member>
+    <member refid="classHolonomicLib_1_1Rotation_1add9b75c0849f49edfc4a3afd21f993bd" kind="function"><name>Rotation</name></member>
+    <member refid="classHolonomicLib_1_1Rotation_1a39db90d455676e2331ffe33abdbf5811" kind="function"><name>Rotation</name></member>
+    <member refid="classHolonomicLib_1_1Rotation_1a2004e5607a9f3850d79adabc1e5f8670" kind="function"><name>~Rotation</name></member>
+    <member refid="classHolonomicLib_1_1Rotation_1ad894d0677ea1801da39f284ba1890788" kind="function"><name>Theta</name></member>
+    <member refid="classHolonomicLib_1_1Rotation_1a530e967106c0fc4699e0b70ce745a20b" kind="function"><name>Sin</name></member>
+    <member refid="classHolonomicLib_1_1Rotation_1a4f8aa55c77cbfea1a382658e4c6df271" kind="function"><name>Cos</name></member>
+    <member refid="classHolonomicLib_1_1Rotation_1a6c0334b8e618d20444e88369efff921d" kind="function"><name>Tan</name></member>
+    <member refid="classHolonomicLib_1_1Rotation_1a410b3b4b8d5b2f74f8ba154977ac9e92" kind="function"><name>operator+</name></member>
+    <member refid="classHolonomicLib_1_1Rotation_1a6c30088df0e577af2c653e2fa0d98255" kind="function"><name>operator-</name></member>
+    <member refid="classHolonomicLib_1_1Rotation_1a5c6e5be80cb0bcc08676c794af79f8c4" kind="function"><name>operator-</name></member>
+    <member refid="classHolonomicLib_1_1Rotation_1a18d7a63554411a7814ab63a0e7ef8554" kind="function"><name>operator*</name></member>
+    <member refid="classHolonomicLib_1_1Rotation_1a113a0e45ccbc84a0a3b91a0d2e6f6edd" kind="function"><name>operator/</name></member>
+    <member refid="classHolonomicLib_1_1Rotation_1aedf3822347b8c71599c8b6e4ba38aef7" kind="function"><name>operator==</name></member>
+    <member refid="classHolonomicLib_1_1Rotation_1afa4babea6c9b2e6021a3996508b9176b" kind="function"><name>operator!=</name></member>
+    <member refid="classHolonomicLib_1_1Rotation_1a489518d1cd09b1631700977e42269417" kind="function"><name>operator=</name></member>
+    <member refid="classHolonomicLib_1_1Rotation_1a51c6f439867abc1f5a4d52c1c6052bee" kind="function"><name>rotateBy</name></member>
+  </compound>
+  <compound refid="classHolonomicLib_1_1SimplePath" kind="class"><name>HolonomicLib::SimplePath</name>
+    <member refid="classHolonomicLib_1_1SimplePath_1a3b62386562cebf7e866f3b81ea005d07" kind="variable"><name>waypoint</name></member>
+    <member refid="classHolonomicLib_1_1SimplePath_1aa1176270b61401f7de0397644130080f" kind="function"><name>SimplePath</name></member>
+    <member refid="classHolonomicLib_1_1SimplePath_1a15d045a80310a645e5baf16ddf9a0389" kind="function"><name>SimplePath</name></member>
+    <member refid="classHolonomicLib_1_1SimplePath_1a1df7104c80ac367559248ecd9f0dd61f" kind="function"><name>~SimplePath</name></member>
+    <member refid="classHolonomicLib_1_1SimplePath_1ab57666812c225a8846225230e0c9e8fb" kind="function"><name>generate</name></member>
+    <member refid="classHolonomicLib_1_1SimplePath_1a14ac9fe5795bc4aa9603467df20dea07" kind="function"><name>generate</name></member>
+    <member refid="classHolonomicLib_1_1SimplePath_1ad937e4c20987edb131a058d888faac76" kind="function"><name>smoothen</name></member>
+    <member refid="classHolonomicLib_1_1SimplePath_1a3d166c3d64d542342efc523090d1df02" kind="function"><name>noSmoothen</name></member>
   </compound>
   <compound refid="classHolonomicLib_1_1StateMachine" kind="class"><name>HolonomicLib::StateMachine</name>
     <member refid="classHolonomicLib_1_1StateMachine_1a233ae568fdc07a83aac306dc1755e393" kind="variable"><name>state</name></member>
@@ -107,11 +179,40 @@
     <member refid="structHolonomicLib_1_1TrajectoryState_1a8e9786d738c836b0b9bfa451560a4b3a" kind="function"><name>TrajectoryState</name></member>
     <member refid="structHolonomicLib_1_1TrajectoryState_1a845fcea5d1d8804fb03dc4cdfb0a973e" kind="function"><name>TrajectoryState</name></member>
   </compound>
+  <compound refid="classHolonomicLib_1_1Translation" kind="class"><name>HolonomicLib::Translation</name>
+    <member refid="classHolonomicLib_1_1Translation_1a91f63e3668884054e9116476409c1193" kind="variable"><name>x</name></member>
+    <member refid="classHolonomicLib_1_1Translation_1adbfbd71b6bfd99abdcbffc1a040e1dda" kind="variable"><name>y</name></member>
+    <member refid="classHolonomicLib_1_1Translation_1adb69e0c208efe56b8e7fb53573a20571" kind="function"><name>Translation</name></member>
+    <member refid="classHolonomicLib_1_1Translation_1aa98e724198b48231afa1885baf056f22" kind="function"><name>Translation</name></member>
+    <member refid="classHolonomicLib_1_1Translation_1a96808cf7a3b7daaf3ad083d53565e1eb" kind="function"><name>Translation</name></member>
+    <member refid="classHolonomicLib_1_1Translation_1a12d073ffd3e6c5699d12dccd657b5b2f" kind="function"><name>Translation</name></member>
+    <member refid="classHolonomicLib_1_1Translation_1a5bbf1111042cdac145e51c8125f80251" kind="function"><name>~Translation</name></member>
+    <member refid="classHolonomicLib_1_1Translation_1a6dca1d8979f1b8cac0feb47746218d5d" kind="function"><name>X</name></member>
+    <member refid="classHolonomicLib_1_1Translation_1acc826a6cb6a6ecb21c7743d30f97d095" kind="function"><name>Y</name></member>
+    <member refid="classHolonomicLib_1_1Translation_1a3f20a9e03662002c6951437d829208ed" kind="function"><name>operator+</name></member>
+    <member refid="classHolonomicLib_1_1Translation_1a6311a569792e7c7af17d3169a30d524d" kind="function"><name>operator-</name></member>
+    <member refid="classHolonomicLib_1_1Translation_1ab8703ecf44599d4d8bad75737f26167e" kind="function"><name>operator-</name></member>
+    <member refid="classHolonomicLib_1_1Translation_1aadc4a038ec52153b507114f31e8159e7" kind="function"><name>operator*</name></member>
+    <member refid="classHolonomicLib_1_1Translation_1ad19f2341cb25a4f443e38a5646ba063f" kind="function"><name>operator*</name></member>
+    <member refid="classHolonomicLib_1_1Translation_1a510a05887e1bea08312b9f90de96657b" kind="function"><name>operator/</name></member>
+    <member refid="classHolonomicLib_1_1Translation_1a167867c9f4982b05df0da6bb63e4bc50" kind="function"><name>operator==</name></member>
+    <member refid="classHolonomicLib_1_1Translation_1a1b1eb85374d19cf31cf73c588a3803ad" kind="function"><name>operator!=</name></member>
+    <member refid="classHolonomicLib_1_1Translation_1a944128227c9af51effcad16c8540dfb5" kind="function"><name>operator=</name></member>
+    <member refid="classHolonomicLib_1_1Translation_1a47eafa4235e35a1d009ec1b65b82eac1" kind="function"><name>Theta</name></member>
+    <member refid="classHolonomicLib_1_1Translation_1afc587a60af1bdc33183a4fb9b42274d7" kind="function"><name>norm</name></member>
+    <member refid="classHolonomicLib_1_1Translation_1a18519f00e30e11a45521263ce880cbaa" kind="function"><name>distTo</name></member>
+    <member refid="classHolonomicLib_1_1Translation_1af67321b3564ddfe6b28bd65fdbff43e8" kind="function"><name>angleTo</name></member>
+    <member refid="classHolonomicLib_1_1Translation_1a4bf1d6568afbfb9c2ed2e25918fad131" kind="function"><name>mag</name></member>
+    <member refid="classHolonomicLib_1_1Translation_1a07cc515ceb5c39db2def8e3ad734f220" kind="function"><name>rotateBy</name></member>
+    <member refid="classHolonomicLib_1_1Translation_1a3bad0aa35d319c2ccf1fe85f9943cf04" kind="function"><name>setX</name></member>
+    <member refid="classHolonomicLib_1_1Translation_1aeea43e09b7b50dde9ae779f8cb02cdcf" kind="function"><name>setY</name></member>
+  </compound>
   <compound refid="namespaceHolonomicLib" kind="namespace"><name>HolonomicLib</name>
     <member refid="namespaceHolonomicLib_1afed0dfbd97b270c1dc11f0b884f915bd" kind="enum"><name>ChassisState</name></member>
     <member refid="namespaceHolonomicLib_1afed0dfbd97b270c1dc11f0b884f915bdaf219b2ab91a60a48dd0edb233d375a11" kind="enumvalue"><name>MOVING_TO_POINT</name></member>
     <member refid="namespaceHolonomicLib_1afed0dfbd97b270c1dc11f0b884f915bda5cdbc4c2cee73eb47090aa3d96684406" kind="enumvalue"><name>FOLLOWING_PATH</name></member>
     <member refid="namespaceHolonomicLib_1afed0dfbd97b270c1dc11f0b884f915bdaa5daf7f2ebbba4975d61dab1c40188c7" kind="enumvalue"><name>IDLE</name></member>
+    <member refid="namespaceHolonomicLib_1a7cceafb5a2f71496d1426c12e9591095" kind="typedef"><name>Point</name></member>
   </compound>
   <compound refid="namespaceHolonomicLib_1_1Math" kind="namespace"><name>HolonomicLib::Math</name>
     <member refid="namespaceHolonomicLib_1_1Math_1a0fb99343562aa2641143d2dc2b142a2e" kind="function"><name>rescale180</name></member>
@@ -132,7 +233,17 @@
   </compound>
   <compound refid="AsyncHolonomicChassisController_8hpp" kind="file"><name>AsyncHolonomicChassisController.hpp</name>
   </compound>
-  <compound refid="Pose2D_8hpp" kind="file"><name>Pose2D.hpp</name>
+  <compound refid="Pose_8hpp" kind="file"><name>Pose.hpp</name>
+  </compound>
+  <compound refid="Rotation_8hpp" kind="file"><name>Rotation.hpp</name>
+  </compound>
+  <compound refid="Translation_8hpp" kind="file"><name>Translation.hpp</name>
+  </compound>
+  <compound refid="CubicBezier_8hpp" kind="file"><name>CubicBezier.hpp</name>
+  </compound>
+  <compound refid="DiscretePath_8hpp" kind="file"><name>DiscretePath.hpp</name>
+  </compound>
+  <compound refid="SimplePath_8hpp" kind="file"><name>SimplePath.hpp</name>
   </compound>
   <compound refid="Trajectory_8hpp" kind="file"><name>Trajectory.hpp</name>
   </compound>
@@ -147,7 +258,17 @@
   </compound>
   <compound refid="AsyncHolonomicChassisController_8cpp" kind="file"><name>AsyncHolonomicChassisController.cpp</name>
   </compound>
-  <compound refid="Pose2D_8cpp" kind="file"><name>Pose2D.cpp</name>
+  <compound refid="Point_8cpp" kind="file"><name>Point.cpp</name>
+  </compound>
+  <compound refid="Pose_8cpp" kind="file"><name>Pose.cpp</name>
+  </compound>
+  <compound refid="Rotation_8cpp" kind="file"><name>Rotation.cpp</name>
+  </compound>
+  <compound refid="CubicBezier_8cpp" kind="file"><name>CubicBezier.cpp</name>
+  </compound>
+  <compound refid="DiscretePath_8cpp" kind="file"><name>DiscretePath.cpp</name>
+  </compound>
+  <compound refid="SimplePath_8cpp" kind="file"><name>SimplePath.cpp</name>
   </compound>
   <compound refid="Trajectory_8cpp" kind="file"><name>Trajectory.cpp</name>
   </compound>
@@ -179,11 +300,19 @@
   </compound>
   <compound refid="dir_ab1faa7b4ae3e358440fd32dfe9ad61d" kind="dir"><name>src/HolonomicLib/Chassis/Controller</name>
   </compound>
+  <compound refid="dir_7ddb63c0c6bae1cf9b8b34ed954a7246" kind="dir"><name>include/HolonomicLib/Pathing/Geometry</name>
+  </compound>
+  <compound refid="dir_c93d103be6f4e78e7cd0b664ab141daa" kind="dir"><name>src/HolonomicLib/Pathing/Geometry</name>
+  </compound>
   <compound refid="dir_f51c6f9d76a7c473e6c96ac38054188f" kind="dir"><name>src/HolonomicLib</name>
   </compound>
   <compound refid="dir_767ba811b7d2db9d0b6ddfee0395e044" kind="dir"><name>include/HolonomicLib</name>
   </compound>
   <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_f8edf9b3bf83b7d614479f961413d73c" kind="dir"><name>src/HolonomicLib/Pathing/Path</name>
+  </compound>
+  <compound refid="dir_b37517e721cdda0db6c4d9a62b15382b" kind="dir"><name>include/HolonomicLib/Pathing/Path</name>
   </compound>
   <compound refid="dir_97603173e74ddbc75eb30f31cf0e424d" kind="dir"><name>include/HolonomicLib/Pathing</name>
   </compound>

@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classHolonomicLib_1_1SimplePath" kind="class" language="C++" prot="public">
+    <compoundname>HolonomicLib::SimplePath</compoundname>
+    <includes refid="SimplePath_8hpp" local="no">SimplePath.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classHolonomicLib_1_1SimplePath_1a3b62386562cebf7e866f3b81ea005d07" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="namespaceHolonomicLib_1a7cceafb5a2f71496d1426c12e9591095" kindref="member">Point</ref> &gt;</type>
+        <definition>std::vector&lt;Point&gt; HolonomicLib::SimplePath::waypoint</definition>
+        <argsstring></argsstring>
+        <name>waypoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Path/SimplePath.hpp" line="18" column="17" bodyfile="include/HolonomicLib/Pathing/Path/SimplePath.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classHolonomicLib_1_1SimplePath_1aa1176270b61401f7de0397644130080f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HolonomicLib::SimplePath::SimplePath</definition>
+        <argsstring>()=default</argsstring>
+        <name>SimplePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Path/SimplePath.hpp" line="8" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classHolonomicLib_1_1SimplePath_1a15d045a80310a645e5baf16ddf9a0389" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HolonomicLib::SimplePath::SimplePath</definition>
+        <argsstring>(const std::initializer_list&lt; Point &gt; &amp;iWaypoint)</argsstring>
+        <name>SimplePath</name>
+        <param>
+          <type>const std::initializer_list&lt; <ref refid="namespaceHolonomicLib_1a7cceafb5a2f71496d1426c12e9591095" kindref="member">Point</ref> &gt; &amp;</type>
+          <declname>iWaypoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Path/SimplePath.hpp" line="9" column="5" bodyfile="src/HolonomicLib/Pathing/Path/SimplePath.cpp" bodystart="5" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classHolonomicLib_1_1SimplePath_1a1df7104c80ac367559248ecd9f0dd61f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HolonomicLib::SimplePath::~SimplePath</definition>
+        <argsstring>()=default</argsstring>
+        <name>~SimplePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Path/SimplePath.hpp" line="10" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classHolonomicLib_1_1SimplePath_1ab57666812c225a8846225230e0c9e8fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classHolonomicLib_1_1SimplePath" kindref="compound">SimplePath</ref> &amp;</type>
+        <definition>SimplePath &amp; HolonomicLib::SimplePath::generate</definition>
+        <argsstring>(int iStep, bool iEnd=true)</argsstring>
+        <name>generate</name>
+        <param>
+          <type>int</type>
+          <declname>iStep</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>iEnd</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Path/SimplePath.hpp" line="12" column="16" bodyfile="src/HolonomicLib/Pathing/Path/SimplePath.cpp" bodystart="7" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classHolonomicLib_1_1SimplePath_1a14ac9fe5795bc4aa9603467df20dea07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classHolonomicLib_1_1SimplePath" kindref="compound">SimplePath</ref> &amp;</type>
+        <definition>SimplePath &amp; HolonomicLib::SimplePath::generate</definition>
+        <argsstring>(okapi::QLength iLength, bool iEnd=true)</argsstring>
+        <name>generate</name>
+        <param>
+          <type>okapi::QLength</type>
+          <declname>iLength</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>iEnd</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Path/SimplePath.hpp" line="13" column="16" bodyfile="src/HolonomicLib/Pathing/Path/SimplePath.cpp" bodystart="31" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classHolonomicLib_1_1SimplePath_1ad937e4c20987edb131a058d888faac76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classHolonomicLib_1_1DiscretePath" kindref="compound">DiscretePath</ref></type>
+        <definition>DiscretePath HolonomicLib::SimplePath::smoothen</definition>
+        <argsstring>(double iSmoothWeight, okapi::QLength iTolerance)</argsstring>
+        <name>smoothen</name>
+        <param>
+          <type>double</type>
+          <declname>iSmoothWeight</declname>
+        </param>
+        <param>
+          <type>okapi::QLength</type>
+          <declname>iTolerance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Path/SimplePath.hpp" line="14" column="18" bodyfile="src/HolonomicLib/Pathing/Path/SimplePath.cpp" bodystart="56" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classHolonomicLib_1_1SimplePath_1a3d166c3d64d542342efc523090d1df02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classHolonomicLib_1_1DiscretePath" kindref="compound">DiscretePath</ref></type>
+        <definition>DiscretePath HolonomicLib::SimplePath::noSmoothen</definition>
+        <argsstring>()</argsstring>
+        <name>noSmoothen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Path/SimplePath.hpp" line="15" column="18" bodyfile="src/HolonomicLib/Pathing/Path/SimplePath.cpp" bodystart="79" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="include/HolonomicLib/Pathing/Path/SimplePath.hpp" line="6" column="17" bodyfile="include/HolonomicLib/Pathing/Path/SimplePath.hpp" bodystart="6" bodyend="19"/>
+    <listofallmembers>
+      <member refid="classHolonomicLib_1_1SimplePath_1ab57666812c225a8846225230e0c9e8fb" prot="public" virt="non-virtual"><scope>HolonomicLib::SimplePath</scope><name>generate</name></member>
+      <member refid="classHolonomicLib_1_1SimplePath_1a14ac9fe5795bc4aa9603467df20dea07" prot="public" virt="non-virtual"><scope>HolonomicLib::SimplePath</scope><name>generate</name></member>
+      <member refid="classHolonomicLib_1_1SimplePath_1a3d166c3d64d542342efc523090d1df02" prot="public" virt="non-virtual"><scope>HolonomicLib::SimplePath</scope><name>noSmoothen</name></member>
+      <member refid="classHolonomicLib_1_1SimplePath_1aa1176270b61401f7de0397644130080f" prot="public" virt="non-virtual"><scope>HolonomicLib::SimplePath</scope><name>SimplePath</name></member>
+      <member refid="classHolonomicLib_1_1SimplePath_1a15d045a80310a645e5baf16ddf9a0389" prot="public" virt="non-virtual"><scope>HolonomicLib::SimplePath</scope><name>SimplePath</name></member>
+      <member refid="classHolonomicLib_1_1SimplePath_1ad937e4c20987edb131a058d888faac76" prot="public" virt="non-virtual"><scope>HolonomicLib::SimplePath</scope><name>smoothen</name></member>
+      <member refid="classHolonomicLib_1_1SimplePath_1a3b62386562cebf7e866f3b81ea005d07" prot="private" virt="non-virtual"><scope>HolonomicLib::SimplePath</scope><name>waypoint</name></member>
+      <member refid="classHolonomicLib_1_1SimplePath_1a1df7104c80ac367559248ecd9f0dd61f" prot="public" virt="non-virtual"><scope>HolonomicLib::SimplePath</scope><name>~SimplePath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="DiscretePath_8hpp" kind="file" language="C++">
+    <compoundname>DiscretePath.hpp</compoundname>
+    <includes refid="Translation_8hpp" local="yes">HolonomicLib/Pathing/Geometry/Translation.hpp</includes>
+    <includes refid="Units_8hpp" local="yes">HolonomicLib/Utility/Units.hpp</includes>
+    <includes refid="Math_8hpp" local="yes">HolonomicLib/Utility/Math.hpp</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">cmath</includes>
+    <includedby refid="CubicBezier_8hpp" local="yes">include/HolonomicLib/Pathing/Path/CubicBezier.hpp</includedby>
+    <includedby refid="SimplePath_8hpp" local="yes">include/HolonomicLib/Pathing/Path/SimplePath.hpp</includedby>
+    <includedby refid="DiscretePath_8cpp" local="yes">src/HolonomicLib/Pathing/Path/DiscretePath.cpp</includedby>
+    <incdepgraph>
+      <node id="8">
+        <label>okapi/api/units/QAcceleration.hpp</label>
+      </node>
+      <node id="2">
+        <label>HolonomicLib/Pathing/Geometry/Translation.hpp</label>
+        <link refid="Translation_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>okapi/api/units/QSpeed.hpp</label>
+      </node>
+      <node id="16">
+        <label>cmath</label>
+      </node>
+      <node id="4">
+        <label>okapi/api/units/QAngle.hpp</label>
+      </node>
+      <node id="11">
+        <label>okapi/api/units/QAngularSpeed.hpp</label>
+      </node>
+      <node id="5">
+        <label>okapi/api/units/QLength.hpp</label>
+      </node>
+      <node id="12">
+        <label>HolonomicLib/Utility/Math.hpp</label>
+        <link refid="Math_8hpp"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>okapi/api/units/QArea.hpp</label>
+      </node>
+      <node id="14">
+        <label>vector</label>
+      </node>
+      <node id="10">
+        <label>okapi/api/units/QTime.hpp</label>
+      </node>
+      <node id="1">
+        <label>include/HolonomicLib/Pathing/Path/DiscretePath.hpp</label>
+        <link refid="DiscretePath_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>utility</label>
+      </node>
+      <node id="3">
+        <label>Rotation.hpp</label>
+        <link refid="Rotation_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>iostream</label>
+      </node>
+      <node id="7">
+        <label>HolonomicLib/Utility/Units.hpp</label>
+        <link refid="Units_8hpp"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="6">
+        <label>src/HolonomicLib/Pathing/Path/DiscretePath.cpp</label>
+        <link refid="DiscretePath_8cpp"/>
+      </node>
+      <node id="3">
+        <label>src/HolonomicLib/Pathing/Path/CubicBezier.cpp</label>
+        <link refid="CubicBezier_8cpp"/>
+      </node>
+      <node id="1">
+        <label>include/HolonomicLib/Pathing/Path/DiscretePath.hpp</label>
+        <link refid="DiscretePath_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>include/HolonomicLib/Pathing/Path/CubicBezier.hpp</label>
+        <link refid="CubicBezier_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>src/HolonomicLib/Pathing/Path/SimplePath.cpp</label>
+        <link refid="SimplePath_8cpp"/>
+      </node>
+      <node id="4">
+        <label>include/HolonomicLib/Pathing/Path/SimplePath.hpp</label>
+        <link refid="SimplePath_8hpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classHolonomicLib_1_1DiscretePath" prot="public">HolonomicLib::DiscretePath</innerclass>
+    <innernamespace refid="namespaceHolonomicLib">HolonomicLib</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Translation_8hpp" kindref="compound">HolonomicLib/Pathing/Geometry/Translation.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Units_8hpp" kindref="compound">HolonomicLib/Utility/Units.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Math_8hpp" kindref="compound">HolonomicLib/Utility/Math.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;cmath&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceHolonomicLib" kindref="compound">HolonomicLib</ref>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="classHolonomicLib_1_1DiscretePath" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classHolonomicLib_1_1DiscretePath" kindref="compound">DiscretePath</ref>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classHolonomicLib_1_1DiscretePath_1a73504534a615f9dac8cb70fd52adb996" kindref="member">DiscretePath</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classHolonomicLib_1_1DiscretePath_1a73504534a615f9dac8cb70fd52adb996" kindref="member">DiscretePath</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::initializer_list&lt;Point&gt;<sp/>&amp;iWaypoint);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classHolonomicLib_1_1DiscretePath_1a73504534a615f9dac8cb70fd52adb996" kindref="member">DiscretePath</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Point&gt;<sp/>&amp;iWaypoint);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classHolonomicLib_1_1DiscretePath_1a220b69d545ff16ef84d19f61d8e51b08" kindref="member">~DiscretePath</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classHolonomicLib_1_1DiscretePath" kindref="compound">DiscretePath</ref><sp/><ref refid="classHolonomicLib_1_1DiscretePath_1ae0b144ee982a61cbc1d23c320d46b4de" kindref="member">operator+</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classHolonomicLib_1_1DiscretePath" kindref="compound">DiscretePath</ref><sp/>&amp;rhs)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classHolonomicLib_1_1DiscretePath" kindref="compound">DiscretePath</ref><sp/><ref refid="classHolonomicLib_1_1DiscretePath_1ae0b144ee982a61cbc1d23c320d46b4de" kindref="member">operator+</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classHolonomicLib_1_1Translation" kindref="compound">Point</ref><sp/>&amp;rhs)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classHolonomicLib_1_1DiscretePath" kindref="compound">DiscretePath</ref>&amp;<sp/><ref refid="classHolonomicLib_1_1DiscretePath_1a2e8a83df2fd4554c6e90d3b24321cda6" kindref="member">operator+=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classHolonomicLib_1_1DiscretePath" kindref="compound">DiscretePath</ref><sp/>&amp;rhs);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classHolonomicLib_1_1DiscretePath" kindref="compound">DiscretePath</ref>&amp;<sp/><ref refid="classHolonomicLib_1_1DiscretePath_1a2e8a83df2fd4554c6e90d3b24321cda6" kindref="member">operator+=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classHolonomicLib_1_1Translation" kindref="compound">Point</ref><sp/>&amp;rhs);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classHolonomicLib_1_1Translation" kindref="compound">Point</ref><sp/><ref refid="classHolonomicLib_1_1DiscretePath_1a038ec9e5c73d0e2408c75799f8546cf7" kindref="member">getPoint</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classHolonomicLib_1_1Translation" kindref="compound">Point</ref><sp/><ref refid="classHolonomicLib_1_1DiscretePath_1a31be63efcdd7aa150e3cdc59607cc75a" kindref="member">operator[]</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classHolonomicLib_1_1DiscretePath_1ac56f2e0912f142471bc7de3ff447cf5a" kindref="member">size</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;Point&gt;<sp/>path;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="include/HolonomicLib/Pathing/Path/DiscretePath.hpp"/>
+  </compounddef>
+</doxygen>

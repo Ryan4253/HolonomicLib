@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classHolonomicLib_1_1CubicBezier" kind="class" language="C++" prot="public">
+    <compoundname>HolonomicLib::CubicBezier</compoundname>
+    <includes refid="CubicBezier_8hpp" local="no">CubicBezier.hpp</includes>
+    <innerclass refid="structHolonomicLib_1_1CubicBezier_1_1Knot" prot="public">HolonomicLib::CubicBezier::Knot</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classHolonomicLib_1_1CubicBezier_1a64a2448d63209f5bf2ae1b6ab20d41c8" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceHolonomicLib_1a7cceafb5a2f71496d1426c12e9591095" kindref="member">Point</ref></type>
+        <definition>Point HolonomicLib::CubicBezier::start</definition>
+        <argsstring></argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Path/CubicBezier.hpp" line="26" column="11" bodyfile="include/HolonomicLib/Pathing/Path/CubicBezier.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHolonomicLib_1_1CubicBezier_1a4fd00375ff8d65344072e4f7175460e7" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceHolonomicLib_1a7cceafb5a2f71496d1426c12e9591095" kindref="member">Point</ref></type>
+        <definition>Point HolonomicLib::CubicBezier::control1</definition>
+        <argsstring></argsstring>
+        <name>control1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Path/CubicBezier.hpp" line="26" column="17" bodyfile="include/HolonomicLib/Pathing/Path/CubicBezier.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHolonomicLib_1_1CubicBezier_1abd83832b003de723f688cfcba0bfe694" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceHolonomicLib_1a7cceafb5a2f71496d1426c12e9591095" kindref="member">Point</ref></type>
+        <definition>Point HolonomicLib::CubicBezier::control2</definition>
+        <argsstring></argsstring>
+        <name>control2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Path/CubicBezier.hpp" line="26" column="26" bodyfile="include/HolonomicLib/Pathing/Path/CubicBezier.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHolonomicLib_1_1CubicBezier_1acb13e22c26ba59017832a7e49d4239ee" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceHolonomicLib_1a7cceafb5a2f71496d1426c12e9591095" kindref="member">Point</ref></type>
+        <definition>Point HolonomicLib::CubicBezier::end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Path/CubicBezier.hpp" line="26" column="35" bodyfile="include/HolonomicLib/Pathing/Path/CubicBezier.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classHolonomicLib_1_1CubicBezier_1a2d63b60f25eb801c31f4c12792869a30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HolonomicLib::CubicBezier::CubicBezier</definition>
+        <argsstring>(const Point &amp;istart, const Point &amp;icontrol1, const Point &amp;icontrol2, const Point &amp;iend)</argsstring>
+        <name>CubicBezier</name>
+        <param>
+          <type>const <ref refid="namespaceHolonomicLib_1a7cceafb5a2f71496d1426c12e9591095" kindref="member">Point</ref> &amp;</type>
+          <declname>istart</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceHolonomicLib_1a7cceafb5a2f71496d1426c12e9591095" kindref="member">Point</ref> &amp;</type>
+          <declname>icontrol1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceHolonomicLib_1a7cceafb5a2f71496d1426c12e9591095" kindref="member">Point</ref> &amp;</type>
+          <declname>icontrol2</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceHolonomicLib_1a7cceafb5a2f71496d1426c12e9591095" kindref="member">Point</ref> &amp;</type>
+          <declname>iend</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Path/CubicBezier.hpp" line="17" column="5" bodyfile="src/HolonomicLib/Pathing/Path/CubicBezier.cpp" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classHolonomicLib_1_1CubicBezier_1ac693f1197f18cb92dc7c63e65b0259ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HolonomicLib::CubicBezier::CubicBezier</definition>
+        <argsstring>(const Knot &amp;istart, const Knot &amp;iend)</argsstring>
+        <name>CubicBezier</name>
+        <param>
+          <type>const <ref refid="structHolonomicLib_1_1CubicBezier_1_1Knot" kindref="compound">Knot</ref> &amp;</type>
+          <declname>istart</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structHolonomicLib_1_1CubicBezier_1_1Knot" kindref="compound">Knot</ref> &amp;</type>
+          <declname>iend</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Path/CubicBezier.hpp" line="19" column="5" bodyfile="src/HolonomicLib/Pathing/Path/CubicBezier.cpp" bodystart="14" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classHolonomicLib_1_1CubicBezier_1a521e443bba0351ea7089489196d2c2c0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceHolonomicLib_1a7cceafb5a2f71496d1426c12e9591095" kindref="member">Point</ref></type>
+        <definition>Point HolonomicLib::CubicBezier::getPoint</definition>
+        <argsstring>(double t) const</argsstring>
+        <name>getPoint</name>
+        <param>
+          <type>double</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Path/CubicBezier.hpp" line="21" column="11" bodyfile="src/HolonomicLib/Pathing/Path/CubicBezier.cpp" bodystart="21" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classHolonomicLib_1_1CubicBezier_1af4afc4cf9541a594f7a40645c3e5dde2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classHolonomicLib_1_1DiscretePath" kindref="compound">DiscretePath</ref></type>
+        <definition>DiscretePath HolonomicLib::CubicBezier::generate</definition>
+        <argsstring>(int istep, bool iend=true) const</argsstring>
+        <name>generate</name>
+        <param>
+          <type>int</type>
+          <declname>istep</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>iend</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Path/CubicBezier.hpp" line="23" column="18" bodyfile="src/HolonomicLib/Pathing/Path/CubicBezier.cpp" bodystart="26" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="include/HolonomicLib/Pathing/Path/CubicBezier.hpp" line="10" column="18" bodyfile="include/HolonomicLib/Pathing/Path/CubicBezier.hpp" bodystart="10" bodyend="27"/>
+    <listofallmembers>
+      <member refid="classHolonomicLib_1_1CubicBezier_1a4fd00375ff8d65344072e4f7175460e7" prot="private" virt="non-virtual"><scope>HolonomicLib::CubicBezier</scope><name>control1</name></member>
+      <member refid="classHolonomicLib_1_1CubicBezier_1abd83832b003de723f688cfcba0bfe694" prot="private" virt="non-virtual"><scope>HolonomicLib::CubicBezier</scope><name>control2</name></member>
+      <member refid="classHolonomicLib_1_1CubicBezier_1a2d63b60f25eb801c31f4c12792869a30" prot="public" virt="non-virtual"><scope>HolonomicLib::CubicBezier</scope><name>CubicBezier</name></member>
+      <member refid="classHolonomicLib_1_1CubicBezier_1ac693f1197f18cb92dc7c63e65b0259ad" prot="public" virt="non-virtual"><scope>HolonomicLib::CubicBezier</scope><name>CubicBezier</name></member>
+      <member refid="classHolonomicLib_1_1CubicBezier_1acb13e22c26ba59017832a7e49d4239ee" prot="private" virt="non-virtual"><scope>HolonomicLib::CubicBezier</scope><name>end</name></member>
+      <member refid="classHolonomicLib_1_1CubicBezier_1af4afc4cf9541a594f7a40645c3e5dde2" prot="public" virt="non-virtual"><scope>HolonomicLib::CubicBezier</scope><name>generate</name></member>
+      <member refid="classHolonomicLib_1_1CubicBezier_1a521e443bba0351ea7089489196d2c2c0" prot="public" virt="non-virtual"><scope>HolonomicLib::CubicBezier</scope><name>getPoint</name></member>
+      <member refid="classHolonomicLib_1_1CubicBezier_1a64a2448d63209f5bf2ae1b6ab20d41c8" prot="private" virt="non-virtual"><scope>HolonomicLib::CubicBezier</scope><name>start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

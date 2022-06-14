@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classHolonomicLib_1_1Rotation" kind="class" language="C++" prot="public">
+    <compoundname>HolonomicLib::Rotation</compoundname>
+    <includes refid="Rotation_8hpp" local="no">Rotation.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classHolonomicLib_1_1Rotation_1a37ec236d3d557c1b59d8b201fe955fb8" prot="private" static="no" mutable="no">
+        <type>okapi::QAngle</type>
+        <definition>okapi::QAngle HolonomicLib::Rotation::theta</definition>
+        <argsstring></argsstring>
+        <name>theta</name>
+        <initializer>{0.0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Geometry/Rotation.hpp" line="46" column="19" bodyfile="include/HolonomicLib/Pathing/Geometry/Rotation.hpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHolonomicLib_1_1Rotation_1a855cb9a398b00dec9c7f034fd2d14702" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double HolonomicLib::Rotation::cosine</definition>
+        <argsstring></argsstring>
+        <name>cosine</name>
+        <initializer>{1.0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Geometry/Rotation.hpp" line="47" column="12" bodyfile="include/HolonomicLib/Pathing/Geometry/Rotation.hpp" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHolonomicLib_1_1Rotation_1afeb2de6a182b3f5fb706952a933fbc86" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double HolonomicLib::Rotation::sine</definition>
+        <argsstring></argsstring>
+        <name>sine</name>
+        <initializer>{0.0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Geometry/Rotation.hpp" line="48" column="12" bodyfile="include/HolonomicLib/Pathing/Geometry/Rotation.hpp" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classHolonomicLib_1_1Rotation_1adc2f58e1d6942b5c3526c868fc35d605" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr HolonomicLib::Rotation::Rotation</definition>
+        <argsstring>()=default</argsstring>
+        <name>Rotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Geometry/Rotation.hpp" line="9" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classHolonomicLib_1_1Rotation_1ac76019aac5cd8e18d3141625e1e67c3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HolonomicLib::Rotation::Rotation</definition>
+        <argsstring>(okapi::QAngle itheta)</argsstring>
+        <name>Rotation</name>
+        <param>
+          <type>okapi::QAngle</type>
+          <declname>itheta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Geometry/Rotation.hpp" line="11" column="5" bodyfile="src/HolonomicLib/Pathing/Geometry/Rotation.cpp" bodystart="4" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classHolonomicLib_1_1Rotation_1add9b75c0849f49edfc4a3afd21f993bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HolonomicLib::Rotation::Rotation</definition>
+        <argsstring>(okapi::QLength ix, okapi::QLength iy)</argsstring>
+        <name>Rotation</name>
+        <param>
+          <type>okapi::QLength</type>
+          <declname>ix</declname>
+        </param>
+        <param>
+          <type>okapi::QLength</type>
+          <declname>iy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Geometry/Rotation.hpp" line="13" column="5" bodyfile="src/HolonomicLib/Pathing/Geometry/Rotation.cpp" bodystart="10" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classHolonomicLib_1_1Rotation_1a39db90d455676e2331ffe33abdbf5811" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HolonomicLib::Rotation::Rotation</definition>
+        <argsstring>(double ix, double iy)</argsstring>
+        <name>Rotation</name>
+        <param>
+          <type>double</type>
+          <declname>ix</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>iy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Geometry/Rotation.hpp" line="15" column="5" bodyfile="src/HolonomicLib/Pathing/Geometry/Rotation.cpp" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classHolonomicLib_1_1Rotation_1a2004e5607a9f3850d79adabc1e5f8670" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HolonomicLib::Rotation::~Rotation</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Rotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Geometry/Rotation.hpp" line="17" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classHolonomicLib_1_1Rotation_1ad894d0677ea1801da39f284ba1890788" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>okapi::QAngle</type>
+        <definition>okapi::QAngle HolonomicLib::Rotation::Theta</definition>
+        <argsstring>() const</argsstring>
+        <name>Theta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Geometry/Rotation.hpp" line="19" column="19" bodyfile="src/HolonomicLib/Pathing/Geometry/Rotation.cpp" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classHolonomicLib_1_1Rotation_1a530e967106c0fc4699e0b70ce745a20b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double HolonomicLib::Rotation::Sin</definition>
+        <argsstring>() const</argsstring>
+        <name>Sin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Geometry/Rotation.hpp" line="21" column="12" bodyfile="src/HolonomicLib/Pathing/Geometry/Rotation.cpp" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classHolonomicLib_1_1Rotation_1a4f8aa55c77cbfea1a382658e4c6df271" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double HolonomicLib::Rotation::Cos</definition>
+        <argsstring>() const</argsstring>
+        <name>Cos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Geometry/Rotation.hpp" line="23" column="12" bodyfile="src/HolonomicLib/Pathing/Geometry/Rotation.cpp" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classHolonomicLib_1_1Rotation_1a6c0334b8e618d20444e88369efff921d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double HolonomicLib::Rotation::Tan</definition>
+        <argsstring>() const</argsstring>
+        <name>Tan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Geometry/Rotation.hpp" line="25" column="12" bodyfile="src/HolonomicLib/Pathing/Geometry/Rotation.cpp" bodystart="38" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classHolonomicLib_1_1Rotation_1a410b3b4b8d5b2f74f8ba154977ac9e92" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classHolonomicLib_1_1Rotation" kindref="compound">Rotation</ref></type>
+        <definition>Rotation HolonomicLib::Rotation::operator+</definition>
+        <argsstring>(const Rotation &amp;rhs) const</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="classHolonomicLib_1_1Rotation" kindref="compound">Rotation</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Geometry/Rotation.hpp" line="27" column="14" bodyfile="src/HolonomicLib/Pathing/Geometry/Rotation.cpp" bodystart="42" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classHolonomicLib_1_1Rotation_1a6c30088df0e577af2c653e2fa0d98255" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classHolonomicLib_1_1Rotation" kindref="compound">Rotation</ref></type>
+        <definition>Rotation HolonomicLib::Rotation::operator-</definition>
+        <argsstring>(const Rotation &amp;rhs) const</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="classHolonomicLib_1_1Rotation" kindref="compound">Rotation</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Geometry/Rotation.hpp" line="29" column="14" bodyfile="src/HolonomicLib/Pathing/Geometry/Rotation.cpp" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classHolonomicLib_1_1Rotation_1a5c6e5be80cb0bcc08676c794af79f8c4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classHolonomicLib_1_1Rotation" kindref="compound">Rotation</ref></type>
+        <definition>Rotation HolonomicLib::Rotation::operator-</definition>
+        <argsstring>() const</argsstring>
+        <name>operator-</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Geometry/Rotation.hpp" line="31" column="14" bodyfile="src/HolonomicLib/Pathing/Geometry/Rotation.cpp" bodystart="50" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classHolonomicLib_1_1Rotation_1a18d7a63554411a7814ab63a0e7ef8554" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classHolonomicLib_1_1Rotation" kindref="compound">Rotation</ref></type>
+        <definition>Rotation HolonomicLib::Rotation::operator*</definition>
+        <argsstring>(double scalar) const</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>double</type>
+          <declname>scalar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Geometry/Rotation.hpp" line="33" column="14" bodyfile="src/HolonomicLib/Pathing/Geometry/Rotation.cpp" bodystart="54" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classHolonomicLib_1_1Rotation_1a113a0e45ccbc84a0a3b91a0d2e6f6edd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classHolonomicLib_1_1Rotation" kindref="compound">Rotation</ref></type>
+        <definition>Rotation HolonomicLib::Rotation::operator/</definition>
+        <argsstring>(double scalar) const</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>double</type>
+          <declname>scalar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Geometry/Rotation.hpp" line="35" column="14" bodyfile="src/HolonomicLib/Pathing/Geometry/Rotation.cpp" bodystart="58" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classHolonomicLib_1_1Rotation_1aedf3822347b8c71599c8b6e4ba38aef7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool HolonomicLib::Rotation::operator==</definition>
+        <argsstring>(const Rotation &amp;rhs) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classHolonomicLib_1_1Rotation" kindref="compound">Rotation</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Geometry/Rotation.hpp" line="37" column="10" bodyfile="src/HolonomicLib/Pathing/Geometry/Rotation.cpp" bodystart="62" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classHolonomicLib_1_1Rotation_1afa4babea6c9b2e6021a3996508b9176b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool HolonomicLib::Rotation::operator!=</definition>
+        <argsstring>(const Rotation &amp;rhs) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="classHolonomicLib_1_1Rotation" kindref="compound">Rotation</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Geometry/Rotation.hpp" line="39" column="10" bodyfile="src/HolonomicLib/Pathing/Geometry/Rotation.cpp" bodystart="66" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classHolonomicLib_1_1Rotation_1a489518d1cd09b1631700977e42269417" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HolonomicLib::Rotation::operator=</definition>
+        <argsstring>(const Rotation &amp;rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classHolonomicLib_1_1Rotation" kindref="compound">Rotation</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Geometry/Rotation.hpp" line="41" column="10" bodyfile="src/HolonomicLib/Pathing/Geometry/Rotation.cpp" bodystart="70" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classHolonomicLib_1_1Rotation_1a51c6f439867abc1f5a4d52c1c6052bee" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classHolonomicLib_1_1Rotation" kindref="compound">Rotation</ref></type>
+        <definition>Rotation HolonomicLib::Rotation::rotateBy</definition>
+        <argsstring>(const Rotation &amp;rhs) const</argsstring>
+        <name>rotateBy</name>
+        <param>
+          <type>const <ref refid="classHolonomicLib_1_1Rotation" kindref="compound">Rotation</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Geometry/Rotation.hpp" line="43" column="14" bodyfile="src/HolonomicLib/Pathing/Geometry/Rotation.cpp" bodystart="77" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="include/HolonomicLib/Pathing/Geometry/Rotation.hpp" line="7" column="15" bodyfile="include/HolonomicLib/Pathing/Geometry/Rotation.hpp" bodystart="7" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classHolonomicLib_1_1Rotation_1a4f8aa55c77cbfea1a382658e4c6df271" prot="public" virt="non-virtual"><scope>HolonomicLib::Rotation</scope><name>Cos</name></member>
+      <member refid="classHolonomicLib_1_1Rotation_1a855cb9a398b00dec9c7f034fd2d14702" prot="private" virt="non-virtual"><scope>HolonomicLib::Rotation</scope><name>cosine</name></member>
+      <member refid="classHolonomicLib_1_1Rotation_1afa4babea6c9b2e6021a3996508b9176b" prot="public" virt="non-virtual"><scope>HolonomicLib::Rotation</scope><name>operator!=</name></member>
+      <member refid="classHolonomicLib_1_1Rotation_1a18d7a63554411a7814ab63a0e7ef8554" prot="public" virt="non-virtual"><scope>HolonomicLib::Rotation</scope><name>operator*</name></member>
+      <member refid="classHolonomicLib_1_1Rotation_1a410b3b4b8d5b2f74f8ba154977ac9e92" prot="public" virt="non-virtual"><scope>HolonomicLib::Rotation</scope><name>operator+</name></member>
+      <member refid="classHolonomicLib_1_1Rotation_1a6c30088df0e577af2c653e2fa0d98255" prot="public" virt="non-virtual"><scope>HolonomicLib::Rotation</scope><name>operator-</name></member>
+      <member refid="classHolonomicLib_1_1Rotation_1a5c6e5be80cb0bcc08676c794af79f8c4" prot="public" virt="non-virtual"><scope>HolonomicLib::Rotation</scope><name>operator-</name></member>
+      <member refid="classHolonomicLib_1_1Rotation_1a113a0e45ccbc84a0a3b91a0d2e6f6edd" prot="public" virt="non-virtual"><scope>HolonomicLib::Rotation</scope><name>operator/</name></member>
+      <member refid="classHolonomicLib_1_1Rotation_1a489518d1cd09b1631700977e42269417" prot="public" virt="non-virtual"><scope>HolonomicLib::Rotation</scope><name>operator=</name></member>
+      <member refid="classHolonomicLib_1_1Rotation_1aedf3822347b8c71599c8b6e4ba38aef7" prot="public" virt="non-virtual"><scope>HolonomicLib::Rotation</scope><name>operator==</name></member>
+      <member refid="classHolonomicLib_1_1Rotation_1a51c6f439867abc1f5a4d52c1c6052bee" prot="public" virt="non-virtual"><scope>HolonomicLib::Rotation</scope><name>rotateBy</name></member>
+      <member refid="classHolonomicLib_1_1Rotation_1adc2f58e1d6942b5c3526c868fc35d605" prot="public" virt="non-virtual"><scope>HolonomicLib::Rotation</scope><name>Rotation</name></member>
+      <member refid="classHolonomicLib_1_1Rotation_1ac76019aac5cd8e18d3141625e1e67c3a" prot="public" virt="non-virtual"><scope>HolonomicLib::Rotation</scope><name>Rotation</name></member>
+      <member refid="classHolonomicLib_1_1Rotation_1add9b75c0849f49edfc4a3afd21f993bd" prot="public" virt="non-virtual"><scope>HolonomicLib::Rotation</scope><name>Rotation</name></member>
+      <member refid="classHolonomicLib_1_1Rotation_1a39db90d455676e2331ffe33abdbf5811" prot="public" virt="non-virtual"><scope>HolonomicLib::Rotation</scope><name>Rotation</name></member>
+      <member refid="classHolonomicLib_1_1Rotation_1a530e967106c0fc4699e0b70ce745a20b" prot="public" virt="non-virtual"><scope>HolonomicLib::Rotation</scope><name>Sin</name></member>
+      <member refid="classHolonomicLib_1_1Rotation_1afeb2de6a182b3f5fb706952a933fbc86" prot="private" virt="non-virtual"><scope>HolonomicLib::Rotation</scope><name>sine</name></member>
+      <member refid="classHolonomicLib_1_1Rotation_1a6c0334b8e618d20444e88369efff921d" prot="public" virt="non-virtual"><scope>HolonomicLib::Rotation</scope><name>Tan</name></member>
+      <member refid="classHolonomicLib_1_1Rotation_1a37ec236d3d557c1b59d8b201fe955fb8" prot="private" virt="non-virtual"><scope>HolonomicLib::Rotation</scope><name>theta</name></member>
+      <member refid="classHolonomicLib_1_1Rotation_1ad894d0677ea1801da39f284ba1890788" prot="public" virt="non-virtual"><scope>HolonomicLib::Rotation</scope><name>Theta</name></member>
+      <member refid="classHolonomicLib_1_1Rotation_1a2004e5607a9f3850d79adabc1e5f8670" prot="public" virt="non-virtual"><scope>HolonomicLib::Rotation</scope><name>~Rotation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

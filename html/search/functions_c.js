@@ -1,10 +1,8 @@
 var searchData=
 [
-  ['waituntilsettled_162',['waitUntilSettled',['../classHolonomicLib_1_1AsyncHolonomicChassisController.html#a0816021af47ab98099d2944712c8d35c',1,'HolonomicLib::AsyncHolonomicChassisController']]],
-  ['withdistgains_163',['withDistGains',['../classHolonomicLib_1_1AsyncHolonomicChassisControllerBuilder.html#a8b3888c8dc7ff07980e4bc545e29a695',1,'HolonomicLib::AsyncHolonomicChassisControllerBuilder']]],
-  ['withdistpid_164',['withDistPID',['../classHolonomicLib_1_1AsyncHolonomicChassisControllerBuilder.html#a3e99a89731240d25a5779d5972820a8f',1,'HolonomicLib::AsyncHolonomicChassisControllerBuilder']]],
-  ['withdistsettleparameters_165',['withDistSettleParameters',['../classHolonomicLib_1_1AsyncHolonomicChassisControllerBuilder.html#affcf4fd14b4957384871672efc6822be',1,'HolonomicLib::AsyncHolonomicChassisControllerBuilder']]],
-  ['withturngains_166',['withTurnGains',['../classHolonomicLib_1_1AsyncHolonomicChassisControllerBuilder.html#a81124efd9fabcba41971ff46c98b1b77',1,'HolonomicLib::AsyncHolonomicChassisControllerBuilder']]],
-  ['withturnpid_167',['withTurnPID',['../classHolonomicLib_1_1AsyncHolonomicChassisControllerBuilder.html#a6e7eea3f786704ca1211f379842a2667',1,'HolonomicLib::AsyncHolonomicChassisControllerBuilder']]],
-  ['withturnsettleparameters_168',['withTurnSettleParameters',['../classHolonomicLib_1_1AsyncHolonomicChassisControllerBuilder.html#af4cb4f036b2fe76fd46b414dbad27ad5',1,'HolonomicLib::AsyncHolonomicChassisControllerBuilder']]]
+  ['rescale180_225',['rescale180',['../namespaceHolonomicLib_1_1Math.html#a0fb99343562aa2641143d2dc2b142a2e',1,'HolonomicLib::Math::rescale180(okapi::QAngle angle)'],['../namespaceHolonomicLib_1_1Math.html#ab5fb5c02303211011c1cf5988960f006',1,'HolonomicLib::Math::rescale180(double angle)']]],
+  ['resetcontrollers_226',['resetControllers',['../classHolonomicLib_1_1AsyncHolonomicChassisController.html#ae1edcd9d7d6bd7ebaef38acc0096bbb7',1,'HolonomicLib::AsyncHolonomicChassisController']]],
+  ['resumetask_227',['resumeTask',['../classHolonomicLib_1_1TaskWrapper.html#ae7e853972219642cd24ab3e67fdb6066',1,'HolonomicLib::TaskWrapper']]],
+  ['rotateby_228',['rotateBy',['../classHolonomicLib_1_1Rotation.html#a51c6f439867abc1f5a4d52c1c6052bee',1,'HolonomicLib::Rotation::rotateBy()'],['../classHolonomicLib_1_1Translation.html#a07cc515ceb5c39db2def8e3ad734f220',1,'HolonomicLib::Translation::rotateBy()']]],
+  ['rotation_229',['Rotation',['../classHolonomicLib_1_1Rotation.html#adc2f58e1d6942b5c3526c868fc35d605',1,'HolonomicLib::Rotation::Rotation()=default'],['../classHolonomicLib_1_1Rotation.html#ac76019aac5cd8e18d3141625e1e67c3a',1,'HolonomicLib::Rotation::Rotation(okapi::QAngle itheta)'],['../classHolonomicLib_1_1Rotation.html#add9b75c0849f49edfc4a3afd21f993bd',1,'HolonomicLib::Rotation::Rotation(okapi::QLength ix, okapi::QLength iy)'],['../classHolonomicLib_1_1Rotation.html#a39db90d455676e2331ffe33abdbf5811',1,'HolonomicLib::Rotation::Rotation(double ix, double iy)']]]
 ];

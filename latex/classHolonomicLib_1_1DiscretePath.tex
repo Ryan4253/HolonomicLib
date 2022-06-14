@@ -1,0 +1,109 @@
+\hypertarget{classHolonomicLib_1_1DiscretePath}{}\doxysection{Holonomic\+Lib\+::Discrete\+Path Class Reference}
+\label{classHolonomicLib_1_1DiscretePath}\index{HolonomicLib::DiscretePath@{HolonomicLib::DiscretePath}}
+
+
+{\ttfamily \#include $<$Discrete\+Path.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classHolonomicLib_1_1DiscretePath_a73504534a615f9dac8cb70fd52adb996}{Discrete\+Path}} ()=default
+\item 
+\mbox{\hyperlink{classHolonomicLib_1_1DiscretePath_a0af6b6cd36606b66163c5f9e00a1bb8b}{Discrete\+Path}} (const std\+::initializer\+\_\+list$<$ \mbox{\hyperlink{namespaceHolonomicLib_a7cceafb5a2f71496d1426c12e9591095}{Point}} $>$ \&i\+Waypoint)
+\item 
+\mbox{\hyperlink{classHolonomicLib_1_1DiscretePath_a9aee5b3f13cac2d21c53c7e67204ca75}{Discrete\+Path}} (const std\+::vector$<$ \mbox{\hyperlink{namespaceHolonomicLib_a7cceafb5a2f71496d1426c12e9591095}{Point}} $>$ \&i\+Waypoint)
+\item 
+\mbox{\hyperlink{classHolonomicLib_1_1DiscretePath_a220b69d545ff16ef84d19f61d8e51b08}{$\sim$\+Discrete\+Path}} ()=default
+\item 
+\mbox{\hyperlink{classHolonomicLib_1_1DiscretePath}{Discrete\+Path}} \mbox{\hyperlink{classHolonomicLib_1_1DiscretePath_ae0b144ee982a61cbc1d23c320d46b4de}{operator+}} (const \mbox{\hyperlink{classHolonomicLib_1_1DiscretePath}{Discrete\+Path}} \&rhs) const
+\item 
+\mbox{\hyperlink{classHolonomicLib_1_1DiscretePath}{Discrete\+Path}} \mbox{\hyperlink{classHolonomicLib_1_1DiscretePath_ac48dfbfc7a10fc18d32b7dfb08684fd4}{operator+}} (const \mbox{\hyperlink{namespaceHolonomicLib_a7cceafb5a2f71496d1426c12e9591095}{Point}} \&rhs) const
+\item 
+\mbox{\hyperlink{classHolonomicLib_1_1DiscretePath}{Discrete\+Path}} \& \mbox{\hyperlink{classHolonomicLib_1_1DiscretePath_a2e8a83df2fd4554c6e90d3b24321cda6}{operator+=}} (const \mbox{\hyperlink{classHolonomicLib_1_1DiscretePath}{Discrete\+Path}} \&rhs)
+\item 
+\mbox{\hyperlink{classHolonomicLib_1_1DiscretePath}{Discrete\+Path}} \& \mbox{\hyperlink{classHolonomicLib_1_1DiscretePath_a5907344801b4211b3752a6f3efb59c8d}{operator+=}} (const \mbox{\hyperlink{namespaceHolonomicLib_a7cceafb5a2f71496d1426c12e9591095}{Point}} \&rhs)
+\item 
+\mbox{\hyperlink{namespaceHolonomicLib_a7cceafb5a2f71496d1426c12e9591095}{Point}} \mbox{\hyperlink{classHolonomicLib_1_1DiscretePath_a038ec9e5c73d0e2408c75799f8546cf7}{get\+Point}} (int index) const
+\item 
+\mbox{\hyperlink{namespaceHolonomicLib_a7cceafb5a2f71496d1426c12e9591095}{Point}} \mbox{\hyperlink{classHolonomicLib_1_1DiscretePath_a31be63efcdd7aa150e3cdc59607cc75a}{operator\mbox{[}$\,$\mbox{]}}} (int index) const
+\item 
+int \mbox{\hyperlink{classHolonomicLib_1_1DiscretePath_ac56f2e0912f142471bc7de3ff447cf5a}{size}} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classHolonomicLib_1_1DiscretePath_a73504534a615f9dac8cb70fd52adb996}\label{classHolonomicLib_1_1DiscretePath_a73504534a615f9dac8cb70fd52adb996}} 
+\index{HolonomicLib::DiscretePath@{HolonomicLib::DiscretePath}!DiscretePath@{DiscretePath}}
+\index{DiscretePath@{DiscretePath}!HolonomicLib::DiscretePath@{HolonomicLib::DiscretePath}}
+\doxysubsubsection{\texorpdfstring{DiscretePath()}{DiscretePath()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Holonomic\+Lib\+::\+Discrete\+Path\+::\+Discrete\+Path (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+\mbox{\Hypertarget{classHolonomicLib_1_1DiscretePath_a0af6b6cd36606b66163c5f9e00a1bb8b}\label{classHolonomicLib_1_1DiscretePath_a0af6b6cd36606b66163c5f9e00a1bb8b}} 
+\index{HolonomicLib::DiscretePath@{HolonomicLib::DiscretePath}!DiscretePath@{DiscretePath}}
+\index{DiscretePath@{DiscretePath}!HolonomicLib::DiscretePath@{HolonomicLib::DiscretePath}}
+\doxysubsubsection{\texorpdfstring{DiscretePath()}{DiscretePath()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Holonomic\+Lib\+::\+Discrete\+Path\+::\+Discrete\+Path (\begin{DoxyParamCaption}\item[{const std\+::initializer\+\_\+list$<$ \mbox{\hyperlink{namespaceHolonomicLib_a7cceafb5a2f71496d1426c12e9591095}{Point}} $>$ \&}]{i\+Waypoint }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classHolonomicLib_1_1DiscretePath_a9aee5b3f13cac2d21c53c7e67204ca75}\label{classHolonomicLib_1_1DiscretePath_a9aee5b3f13cac2d21c53c7e67204ca75}} 
+\index{HolonomicLib::DiscretePath@{HolonomicLib::DiscretePath}!DiscretePath@{DiscretePath}}
+\index{DiscretePath@{DiscretePath}!HolonomicLib::DiscretePath@{HolonomicLib::DiscretePath}}
+\doxysubsubsection{\texorpdfstring{DiscretePath()}{DiscretePath()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Holonomic\+Lib\+::\+Discrete\+Path\+::\+Discrete\+Path (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ \mbox{\hyperlink{namespaceHolonomicLib_a7cceafb5a2f71496d1426c12e9591095}{Point}} $>$ \&}]{i\+Waypoint }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classHolonomicLib_1_1DiscretePath_a220b69d545ff16ef84d19f61d8e51b08}\label{classHolonomicLib_1_1DiscretePath_a220b69d545ff16ef84d19f61d8e51b08}} 
+\index{HolonomicLib::DiscretePath@{HolonomicLib::DiscretePath}!````~DiscretePath@{$\sim$DiscretePath}}
+\index{````~DiscretePath@{$\sim$DiscretePath}!HolonomicLib::DiscretePath@{HolonomicLib::DiscretePath}}
+\doxysubsubsection{\texorpdfstring{$\sim$DiscretePath()}{~DiscretePath()}}
+{\footnotesize\ttfamily Holonomic\+Lib\+::\+Discrete\+Path\+::$\sim$\+Discrete\+Path (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classHolonomicLib_1_1DiscretePath_a038ec9e5c73d0e2408c75799f8546cf7}\label{classHolonomicLib_1_1DiscretePath_a038ec9e5c73d0e2408c75799f8546cf7}} 
+\index{HolonomicLib::DiscretePath@{HolonomicLib::DiscretePath}!getPoint@{getPoint}}
+\index{getPoint@{getPoint}!HolonomicLib::DiscretePath@{HolonomicLib::DiscretePath}}
+\doxysubsubsection{\texorpdfstring{getPoint()}{getPoint()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespaceHolonomicLib_a7cceafb5a2f71496d1426c12e9591095}{Point}} Holonomic\+Lib\+::\+Discrete\+Path\+::get\+Point (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classHolonomicLib_1_1DiscretePath_ae0b144ee982a61cbc1d23c320d46b4de}\label{classHolonomicLib_1_1DiscretePath_ae0b144ee982a61cbc1d23c320d46b4de}} 
+\index{HolonomicLib::DiscretePath@{HolonomicLib::DiscretePath}!operator+@{operator+}}
+\index{operator+@{operator+}!HolonomicLib::DiscretePath@{HolonomicLib::DiscretePath}}
+\doxysubsubsection{\texorpdfstring{operator+()}{operator+()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classHolonomicLib_1_1DiscretePath}{Discrete\+Path}} Holonomic\+Lib\+::\+Discrete\+Path\+::operator+ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classHolonomicLib_1_1DiscretePath}{Discrete\+Path}} \&}]{rhs }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classHolonomicLib_1_1DiscretePath_ac48dfbfc7a10fc18d32b7dfb08684fd4}\label{classHolonomicLib_1_1DiscretePath_ac48dfbfc7a10fc18d32b7dfb08684fd4}} 
+\index{HolonomicLib::DiscretePath@{HolonomicLib::DiscretePath}!operator+@{operator+}}
+\index{operator+@{operator+}!HolonomicLib::DiscretePath@{HolonomicLib::DiscretePath}}
+\doxysubsubsection{\texorpdfstring{operator+()}{operator+()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classHolonomicLib_1_1DiscretePath}{Discrete\+Path}} Holonomic\+Lib\+::\+Discrete\+Path\+::operator+ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{namespaceHolonomicLib_a7cceafb5a2f71496d1426c12e9591095}{Point}} \&}]{rhs }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classHolonomicLib_1_1DiscretePath_a2e8a83df2fd4554c6e90d3b24321cda6}\label{classHolonomicLib_1_1DiscretePath_a2e8a83df2fd4554c6e90d3b24321cda6}} 
+\index{HolonomicLib::DiscretePath@{HolonomicLib::DiscretePath}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!HolonomicLib::DiscretePath@{HolonomicLib::DiscretePath}}
+\doxysubsubsection{\texorpdfstring{operator+=()}{operator+=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classHolonomicLib_1_1DiscretePath}{Discrete\+Path}} \& Holonomic\+Lib\+::\+Discrete\+Path\+::operator+= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classHolonomicLib_1_1DiscretePath}{Discrete\+Path}} \&}]{rhs }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classHolonomicLib_1_1DiscretePath_a5907344801b4211b3752a6f3efb59c8d}\label{classHolonomicLib_1_1DiscretePath_a5907344801b4211b3752a6f3efb59c8d}} 
+\index{HolonomicLib::DiscretePath@{HolonomicLib::DiscretePath}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!HolonomicLib::DiscretePath@{HolonomicLib::DiscretePath}}
+\doxysubsubsection{\texorpdfstring{operator+=()}{operator+=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classHolonomicLib_1_1DiscretePath}{Discrete\+Path}} \& Holonomic\+Lib\+::\+Discrete\+Path\+::operator+= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{namespaceHolonomicLib_a7cceafb5a2f71496d1426c12e9591095}{Point}} \&}]{rhs }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classHolonomicLib_1_1DiscretePath_a31be63efcdd7aa150e3cdc59607cc75a}\label{classHolonomicLib_1_1DiscretePath_a31be63efcdd7aa150e3cdc59607cc75a}} 
+\index{HolonomicLib::DiscretePath@{HolonomicLib::DiscretePath}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!HolonomicLib::DiscretePath@{HolonomicLib::DiscretePath}}
+\doxysubsubsection{\texorpdfstring{operator[]()}{operator[]()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespaceHolonomicLib_a7cceafb5a2f71496d1426c12e9591095}{Point}} Holonomic\+Lib\+::\+Discrete\+Path\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classHolonomicLib_1_1DiscretePath_ac56f2e0912f142471bc7de3ff447cf5a}\label{classHolonomicLib_1_1DiscretePath_ac56f2e0912f142471bc7de3ff447cf5a}} 
+\index{HolonomicLib::DiscretePath@{HolonomicLib::DiscretePath}!size@{size}}
+\index{size@{size}!HolonomicLib::DiscretePath@{HolonomicLib::DiscretePath}}
+\doxysubsubsection{\texorpdfstring{size()}{size()}}
+{\footnotesize\ttfamily int Holonomic\+Lib\+::\+Discrete\+Path\+::size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\+Holonomic\+Lib/\+Pathing/\+Path/\mbox{\hyperlink{DiscretePath_8hpp}{Discrete\+Path.\+hpp}}\item 
+src/\+Holonomic\+Lib/\+Pathing/\+Path/\mbox{\hyperlink{DiscretePath_8cpp}{Discrete\+Path.\+cpp}}\end{DoxyCompactItemize}

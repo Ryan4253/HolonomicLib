@@ -13,8 +13,8 @@ Inheritance diagram for Holonomic\+Lib\+::Async\+Holonomic\+Chassis\+Controller\
 \doxysubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-void \mbox{\hyperlink{classHolonomicLib_1_1AsyncHolonomicChassisController_abe2b624eb3ec3efb0f5715d826ad93c1}{set\+Target}} (const \mbox{\hyperlink{structHolonomicLib_1_1Pose2D}{Pose2D}} \&ipose, bool \mbox{\hyperlink{classHolonomicLib_1_1AsyncHolonomicChassisController_a0816021af47ab98099d2944712c8d35c}{wait\+Until\+Settled}}=false)
-\begin{DoxyCompactList}\small\item\em Sets desired controller target (Pose) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHolonomicLib_1_1AsyncHolonomicChassisController_a2ae2a34e39723d4717f917be63f695f7}{set\+Target}} (const \mbox{\hyperlink{classHolonomicLib_1_1Pose}{Pose}} \&ipose, bool \mbox{\hyperlink{classHolonomicLib_1_1AsyncHolonomicChassisController_a0816021af47ab98099d2944712c8d35c}{wait\+Until\+Settled}}=false)
+\begin{DoxyCompactList}\small\item\em Sets desired controller target (\mbox{\hyperlink{classHolonomicLib_1_1Pose}{Pose}}) \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{classHolonomicLib_1_1AsyncHolonomicChassisController_a3609f4c1c91dfee3f12b41b620ff0a82}{set\+Target}} (const \mbox{\hyperlink{classHolonomicLib_1_1Trajectory}{Trajectory}} \&itrajectory, bool \mbox{\hyperlink{classHolonomicLib_1_1AsyncHolonomicChassisController_a0816021af47ab98099d2944712c8d35c}{wait\+Until\+Settled}}=false)
 \begin{DoxyCompactList}\small\item\em Sets desired controller target (\mbox{\hyperlink{classHolonomicLib_1_1Trajectory}{Trajectory}} -\/ used with old Pathplanner) \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{classHolonomicLib_1_1AsyncHolonomicChassisController_a388a64ffd23b7a3f3d8d38fb247ae6ab}{set\+Target}} (const \mbox{\hyperlink{classHolonomicLib_1_1TimedTrajectory}{Timed\+Trajectory}} \&itrajectory, bool \mbox{\hyperlink{classHolonomicLib_1_1AsyncHolonomicChassisController_a0816021af47ab98099d2944712c8d35c}{wait\+Until\+Settled}}=false)
@@ -23,9 +23,9 @@ void \mbox{\hyperlink{classHolonomicLib_1_1AsyncHolonomicChassisController_a2cbd
 \begin{DoxyCompactList}\small\item\em Stops chassis. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{classHolonomicLib_1_1AsyncHolonomicChassisController_a0816021af47ab98099d2944712c8d35c}{wait\+Until\+Settled}} ()
 \begin{DoxyCompactList}\small\item\em Delays until the chassis has settled. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{classHolonomicLib_1_1AsyncHolonomicChassisController_ac24f421fceda62040124c2fcfa61e394}{set\+Pose}} (const \mbox{\hyperlink{structHolonomicLib_1_1Pose2D}{Pose2D}} \&ipose)
+void \mbox{\hyperlink{classHolonomicLib_1_1AsyncHolonomicChassisController_a0f6e8f43aee708e1050f221f39bf698d}{set\+Pose}} (const \mbox{\hyperlink{classHolonomicLib_1_1Pose}{Pose}} \&ipose)
 \begin{DoxyCompactList}\small\item\em Sets current odom pose. \end{DoxyCompactList}\item 
-\mbox{\hyperlink{structHolonomicLib_1_1Pose2D}{Pose2D}} \mbox{\hyperlink{classHolonomicLib_1_1AsyncHolonomicChassisController_a3d0965b11e7593e2bd83116fcf17815d}{get\+Pose}} ()
+\mbox{\hyperlink{classHolonomicLib_1_1Pose}{Pose}} \mbox{\hyperlink{classHolonomicLib_1_1AsyncHolonomicChassisController_abcb63fa77f9f510d164cd03bd37205c8}{get\+Pose}} ()
 \begin{DoxyCompactList}\small\item\em Gets current odom pose. \end{DoxyCompactList}\item 
 bool \mbox{\hyperlink{classHolonomicLib_1_1AsyncHolonomicChassisController_a0577b6fa6502e975d93b0ec96458351d}{is\+Settled}} ()
 \begin{DoxyCompactList}\small\item\em Checks if the chassis is settled. \end{DoxyCompactList}\end{DoxyCompactItemize}
@@ -59,9 +59,9 @@ std\+::unique\+\_\+ptr$<$ okapi\+::\+Abstract\+Timer $>$ \mbox{\hyperlink{classH
 \item 
 \mbox{\hyperlink{classHolonomicLib_1_1TimedTrajectory}{Timed\+Trajectory}} \mbox{\hyperlink{classHolonomicLib_1_1AsyncHolonomicChassisController_a33367b32d444678c890b2c326f0c5a9a}{timed\+Trajectory}}
 \item 
-\mbox{\hyperlink{structHolonomicLib_1_1Pose2D}{Pose2D}} \mbox{\hyperlink{classHolonomicLib_1_1AsyncHolonomicChassisController_aacf390977de28b9a0fa2f59a977419eb}{end\+Pose}}
+\mbox{\hyperlink{classHolonomicLib_1_1Pose}{Pose}} \mbox{\hyperlink{classHolonomicLib_1_1AsyncHolonomicChassisController_af14d0dca89b59aae206439e02ad33fa0}{end\+Pose}} \{0 $\ast$ okapi\+::inch, 0 $\ast$ okapi\+::inch, 0 $\ast$ okapi\+::degree\}
 \item 
-\mbox{\hyperlink{structHolonomicLib_1_1Pose2D}{Pose2D}} \mbox{\hyperlink{classHolonomicLib_1_1AsyncHolonomicChassisController_a8ddc964faf9dd6942305e6fbb2a783c1}{current\+Pose}}
+\mbox{\hyperlink{classHolonomicLib_1_1Pose}{Pose}} \mbox{\hyperlink{classHolonomicLib_1_1AsyncHolonomicChassisController_a8a25635a655c6aba0f88edd2c77c04fe}{current\+Pose}}
 \item 
 bool \mbox{\hyperlink{classHolonomicLib_1_1AsyncHolonomicChassisController_a72d773d7ee90e1204618ecaaccae9cc9}{is\+Timed\+Trajectory}} \{false\}
 \item 
@@ -103,11 +103,11 @@ Constructs a new Async Holonomic Chassis Controller object.
 
 
 \doxysubsection{Member Function Documentation}
-\mbox{\Hypertarget{classHolonomicLib_1_1AsyncHolonomicChassisController_a3d0965b11e7593e2bd83116fcf17815d}\label{classHolonomicLib_1_1AsyncHolonomicChassisController_a3d0965b11e7593e2bd83116fcf17815d}} 
+\mbox{\Hypertarget{classHolonomicLib_1_1AsyncHolonomicChassisController_abcb63fa77f9f510d164cd03bd37205c8}\label{classHolonomicLib_1_1AsyncHolonomicChassisController_abcb63fa77f9f510d164cd03bd37205c8}} 
 \index{HolonomicLib::AsyncHolonomicChassisController@{HolonomicLib::AsyncHolonomicChassisController}!getPose@{getPose}}
 \index{getPose@{getPose}!HolonomicLib::AsyncHolonomicChassisController@{HolonomicLib::AsyncHolonomicChassisController}}
 \doxysubsubsection{\texorpdfstring{getPose()}{getPose()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{structHolonomicLib_1_1Pose2D}{Pose2D}} Holonomic\+Lib\+::\+Async\+Holonomic\+Chassis\+Controller\+::get\+Pose (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily \mbox{\hyperlink{classHolonomicLib_1_1Pose}{Pose}} Holonomic\+Lib\+::\+Async\+Holonomic\+Chassis\+Controller\+::get\+Pose (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
 
 
@@ -168,11 +168,11 @@ Set the loop time of the two P\+ID controllers.
 {\em itime} & the loop time \\
 \hline
 \end{DoxyParams}
-\mbox{\Hypertarget{classHolonomicLib_1_1AsyncHolonomicChassisController_ac24f421fceda62040124c2fcfa61e394}\label{classHolonomicLib_1_1AsyncHolonomicChassisController_ac24f421fceda62040124c2fcfa61e394}} 
+\mbox{\Hypertarget{classHolonomicLib_1_1AsyncHolonomicChassisController_a0f6e8f43aee708e1050f221f39bf698d}\label{classHolonomicLib_1_1AsyncHolonomicChassisController_a0f6e8f43aee708e1050f221f39bf698d}} 
 \index{HolonomicLib::AsyncHolonomicChassisController@{HolonomicLib::AsyncHolonomicChassisController}!setPose@{setPose}}
 \index{setPose@{setPose}!HolonomicLib::AsyncHolonomicChassisController@{HolonomicLib::AsyncHolonomicChassisController}}
 \doxysubsubsection{\texorpdfstring{setPose()}{setPose()}}
-{\footnotesize\ttfamily void Holonomic\+Lib\+::\+Async\+Holonomic\+Chassis\+Controller\+::set\+Pose (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structHolonomicLib_1_1Pose2D}{Pose2D}} \&}]{ipose }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily void Holonomic\+Lib\+::\+Async\+Holonomic\+Chassis\+Controller\+::set\+Pose (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classHolonomicLib_1_1Pose}{Pose}} \&}]{ipose }\end{DoxyParamCaption})}
 
 
 
@@ -183,19 +183,19 @@ Sets current odom pose.
 {\em ipose} & current pose \\
 \hline
 \end{DoxyParams}
-\mbox{\Hypertarget{classHolonomicLib_1_1AsyncHolonomicChassisController_abe2b624eb3ec3efb0f5715d826ad93c1}\label{classHolonomicLib_1_1AsyncHolonomicChassisController_abe2b624eb3ec3efb0f5715d826ad93c1}} 
+\mbox{\Hypertarget{classHolonomicLib_1_1AsyncHolonomicChassisController_a2ae2a34e39723d4717f917be63f695f7}\label{classHolonomicLib_1_1AsyncHolonomicChassisController_a2ae2a34e39723d4717f917be63f695f7}} 
 \index{HolonomicLib::AsyncHolonomicChassisController@{HolonomicLib::AsyncHolonomicChassisController}!setTarget@{setTarget}}
 \index{setTarget@{setTarget}!HolonomicLib::AsyncHolonomicChassisController@{HolonomicLib::AsyncHolonomicChassisController}}
 \doxysubsubsection{\texorpdfstring{setTarget()}{setTarget()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
-{\footnotesize\ttfamily void Holonomic\+Lib\+::\+Async\+Holonomic\+Chassis\+Controller\+::set\+Target (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structHolonomicLib_1_1Pose2D}{Pose2D}} \&}]{ipose,  }\item[{bool}]{wait\+Until\+Settled = {\ttfamily false} }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily void Holonomic\+Lib\+::\+Async\+Holonomic\+Chassis\+Controller\+::set\+Target (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classHolonomicLib_1_1Pose}{Pose}} \&}]{ipose,  }\item[{bool}]{wait\+Until\+Settled = {\ttfamily false} }\end{DoxyParamCaption})}
 
 
 
-Sets desired controller target (Pose) 
+Sets desired controller target (\mbox{\hyperlink{classHolonomicLib_1_1Pose}{Pose}}) 
 
 
 \begin{DoxyParams}{Parameters}
-{\em ipose} & desired Pose \\
+{\em ipose} & desired \mbox{\hyperlink{classHolonomicLib_1_1Pose}{Pose}} \\
 \hline
 {\em wait\+Until\+Settled} & if true, the controller will delay until the chassis has settled \\
 \hline
@@ -272,11 +272,11 @@ Delays until the chassis has settled.
 \doxysubsubsection{\texorpdfstring{chassis}{chassis}}
 {\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$okapi\+::\+Odom\+Chassis\+Controller$>$ Holonomic\+Lib\+::\+Async\+Holonomic\+Chassis\+Controller\+::chassis \{nullptr\}\hspace{0.3cm}{\ttfamily [protected]}}
 
-\mbox{\Hypertarget{classHolonomicLib_1_1AsyncHolonomicChassisController_a8ddc964faf9dd6942305e6fbb2a783c1}\label{classHolonomicLib_1_1AsyncHolonomicChassisController_a8ddc964faf9dd6942305e6fbb2a783c1}} 
+\mbox{\Hypertarget{classHolonomicLib_1_1AsyncHolonomicChassisController_a8a25635a655c6aba0f88edd2c77c04fe}\label{classHolonomicLib_1_1AsyncHolonomicChassisController_a8a25635a655c6aba0f88edd2c77c04fe}} 
 \index{HolonomicLib::AsyncHolonomicChassisController@{HolonomicLib::AsyncHolonomicChassisController}!currentPose@{currentPose}}
 \index{currentPose@{currentPose}!HolonomicLib::AsyncHolonomicChassisController@{HolonomicLib::AsyncHolonomicChassisController}}
 \doxysubsubsection{\texorpdfstring{currentPose}{currentPose}}
-{\footnotesize\ttfamily \mbox{\hyperlink{structHolonomicLib_1_1Pose2D}{Pose2D}} Holonomic\+Lib\+::\+Async\+Holonomic\+Chassis\+Controller\+::current\+Pose\hspace{0.3cm}{\ttfamily [protected]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classHolonomicLib_1_1Pose}{Pose}} Holonomic\+Lib\+::\+Async\+Holonomic\+Chassis\+Controller\+::current\+Pose\hspace{0.3cm}{\ttfamily [protected]}}
 
 \mbox{\Hypertarget{classHolonomicLib_1_1AsyncHolonomicChassisController_a11d2dd008802aecd56e3a0d4b34e8369}\label{classHolonomicLib_1_1AsyncHolonomicChassisController_a11d2dd008802aecd56e3a0d4b34e8369}} 
 \index{HolonomicLib::AsyncHolonomicChassisController@{HolonomicLib::AsyncHolonomicChassisController}!delayTime@{delayTime}}
@@ -290,11 +290,11 @@ Delays until the chassis has settled.
 \doxysubsubsection{\texorpdfstring{distController}{distController}}
 {\footnotesize\ttfamily std\+::unique\+\_\+ptr$<$okapi\+::\+Iterative\+Pos\+P\+I\+D\+Controller$>$ Holonomic\+Lib\+::\+Async\+Holonomic\+Chassis\+Controller\+::dist\+Controller \{nullptr\}\hspace{0.3cm}{\ttfamily [protected]}}
 
-\mbox{\Hypertarget{classHolonomicLib_1_1AsyncHolonomicChassisController_aacf390977de28b9a0fa2f59a977419eb}\label{classHolonomicLib_1_1AsyncHolonomicChassisController_aacf390977de28b9a0fa2f59a977419eb}} 
+\mbox{\Hypertarget{classHolonomicLib_1_1AsyncHolonomicChassisController_af14d0dca89b59aae206439e02ad33fa0}\label{classHolonomicLib_1_1AsyncHolonomicChassisController_af14d0dca89b59aae206439e02ad33fa0}} 
 \index{HolonomicLib::AsyncHolonomicChassisController@{HolonomicLib::AsyncHolonomicChassisController}!endPose@{endPose}}
 \index{endPose@{endPose}!HolonomicLib::AsyncHolonomicChassisController@{HolonomicLib::AsyncHolonomicChassisController}}
 \doxysubsubsection{\texorpdfstring{endPose}{endPose}}
-{\footnotesize\ttfamily \mbox{\hyperlink{structHolonomicLib_1_1Pose2D}{Pose2D}} Holonomic\+Lib\+::\+Async\+Holonomic\+Chassis\+Controller\+::end\+Pose\hspace{0.3cm}{\ttfamily [protected]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classHolonomicLib_1_1Pose}{Pose}} Holonomic\+Lib\+::\+Async\+Holonomic\+Chassis\+Controller\+::end\+Pose \{0 $\ast$ okapi\+::inch, 0 $\ast$ okapi\+::inch, 0 $\ast$ okapi\+::degree\}\hspace{0.3cm}{\ttfamily [protected]}}
 
 \mbox{\Hypertarget{classHolonomicLib_1_1AsyncHolonomicChassisController_aa54abc5771999cf9d0308ee322a5ea6d}\label{classHolonomicLib_1_1AsyncHolonomicChassisController_aa54abc5771999cf9d0308ee322a5ea6d}} 
 \index{HolonomicLib::AsyncHolonomicChassisController@{HolonomicLib::AsyncHolonomicChassisController}!index@{index}}

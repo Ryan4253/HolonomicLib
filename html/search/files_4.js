@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['taskwrapper_2ecpp_119',['TaskWrapper.cpp',['../TaskWrapper_8cpp.html',1,'']]],
-  ['taskwrapper_2ehpp_120',['TaskWrapper.hpp',['../TaskWrapper_8hpp.html',1,'']]],
-  ['trajectory_2ecpp_121',['Trajectory.cpp',['../Trajectory_8cpp.html',1,'']]],
-  ['trajectory_2ehpp_122',['Trajectory.hpp',['../Trajectory_8hpp.html',1,'']]]
+  ['point_2ecpp_171',['Point.cpp',['../Point_8cpp.html',1,'']]],
+  ['pose_2ecpp_172',['Pose.cpp',['../Pose_8cpp.html',1,'']]],
+  ['pose_2ehpp_173',['Pose.hpp',['../Pose_8hpp.html',1,'']]]
 ];

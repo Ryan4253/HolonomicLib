@@ -1,0 +1,58 @@
+\hypertarget{classHolonomicLib_1_1CubicBezier}{}\doxysection{Holonomic\+Lib\+::Cubic\+Bezier Class Reference}
+\label{classHolonomicLib_1_1CubicBezier}\index{HolonomicLib::CubicBezier@{HolonomicLib::CubicBezier}}
+
+
+{\ttfamily \#include $<$Cubic\+Bezier.\+hpp$>$}
+
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structHolonomicLib_1_1CubicBezier_1_1Knot}{Knot}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classHolonomicLib_1_1CubicBezier_a2d63b60f25eb801c31f4c12792869a30}{Cubic\+Bezier}} (const \mbox{\hyperlink{namespaceHolonomicLib_a7cceafb5a2f71496d1426c12e9591095}{Point}} \&istart, const \mbox{\hyperlink{namespaceHolonomicLib_a7cceafb5a2f71496d1426c12e9591095}{Point}} \&icontrol1, const \mbox{\hyperlink{namespaceHolonomicLib_a7cceafb5a2f71496d1426c12e9591095}{Point}} \&icontrol2, const \mbox{\hyperlink{namespaceHolonomicLib_a7cceafb5a2f71496d1426c12e9591095}{Point}} \&iend)
+\item 
+\mbox{\hyperlink{classHolonomicLib_1_1CubicBezier_ac693f1197f18cb92dc7c63e65b0259ad}{Cubic\+Bezier}} (const \mbox{\hyperlink{structHolonomicLib_1_1CubicBezier_1_1Knot}{Knot}} \&istart, const \mbox{\hyperlink{structHolonomicLib_1_1CubicBezier_1_1Knot}{Knot}} \&iend)
+\item 
+\mbox{\hyperlink{namespaceHolonomicLib_a7cceafb5a2f71496d1426c12e9591095}{Point}} \mbox{\hyperlink{classHolonomicLib_1_1CubicBezier_a521e443bba0351ea7089489196d2c2c0}{get\+Point}} (double t) const
+\item 
+\mbox{\hyperlink{classHolonomicLib_1_1DiscretePath}{Discrete\+Path}} \mbox{\hyperlink{classHolonomicLib_1_1CubicBezier_af4afc4cf9541a594f7a40645c3e5dde2}{generate}} (int istep, bool iend=true) const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classHolonomicLib_1_1CubicBezier_a2d63b60f25eb801c31f4c12792869a30}\label{classHolonomicLib_1_1CubicBezier_a2d63b60f25eb801c31f4c12792869a30}} 
+\index{HolonomicLib::CubicBezier@{HolonomicLib::CubicBezier}!CubicBezier@{CubicBezier}}
+\index{CubicBezier@{CubicBezier}!HolonomicLib::CubicBezier@{HolonomicLib::CubicBezier}}
+\doxysubsubsection{\texorpdfstring{CubicBezier()}{CubicBezier()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Holonomic\+Lib\+::\+Cubic\+Bezier\+::\+Cubic\+Bezier (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{namespaceHolonomicLib_a7cceafb5a2f71496d1426c12e9591095}{Point}} \&}]{istart,  }\item[{const \mbox{\hyperlink{namespaceHolonomicLib_a7cceafb5a2f71496d1426c12e9591095}{Point}} \&}]{icontrol1,  }\item[{const \mbox{\hyperlink{namespaceHolonomicLib_a7cceafb5a2f71496d1426c12e9591095}{Point}} \&}]{icontrol2,  }\item[{const \mbox{\hyperlink{namespaceHolonomicLib_a7cceafb5a2f71496d1426c12e9591095}{Point}} \&}]{iend }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classHolonomicLib_1_1CubicBezier_ac693f1197f18cb92dc7c63e65b0259ad}\label{classHolonomicLib_1_1CubicBezier_ac693f1197f18cb92dc7c63e65b0259ad}} 
+\index{HolonomicLib::CubicBezier@{HolonomicLib::CubicBezier}!CubicBezier@{CubicBezier}}
+\index{CubicBezier@{CubicBezier}!HolonomicLib::CubicBezier@{HolonomicLib::CubicBezier}}
+\doxysubsubsection{\texorpdfstring{CubicBezier()}{CubicBezier()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Holonomic\+Lib\+::\+Cubic\+Bezier\+::\+Cubic\+Bezier (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structHolonomicLib_1_1CubicBezier_1_1Knot}{Knot}} \&}]{istart,  }\item[{const \mbox{\hyperlink{structHolonomicLib_1_1CubicBezier_1_1Knot}{Knot}} \&}]{iend }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classHolonomicLib_1_1CubicBezier_af4afc4cf9541a594f7a40645c3e5dde2}\label{classHolonomicLib_1_1CubicBezier_af4afc4cf9541a594f7a40645c3e5dde2}} 
+\index{HolonomicLib::CubicBezier@{HolonomicLib::CubicBezier}!generate@{generate}}
+\index{generate@{generate}!HolonomicLib::CubicBezier@{HolonomicLib::CubicBezier}}
+\doxysubsubsection{\texorpdfstring{generate()}{generate()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classHolonomicLib_1_1DiscretePath}{Discrete\+Path}} Holonomic\+Lib\+::\+Cubic\+Bezier\+::generate (\begin{DoxyParamCaption}\item[{int}]{istep,  }\item[{bool}]{iend = {\ttfamily true} }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classHolonomicLib_1_1CubicBezier_a521e443bba0351ea7089489196d2c2c0}\label{classHolonomicLib_1_1CubicBezier_a521e443bba0351ea7089489196d2c2c0}} 
+\index{HolonomicLib::CubicBezier@{HolonomicLib::CubicBezier}!getPoint@{getPoint}}
+\index{getPoint@{getPoint}!HolonomicLib::CubicBezier@{HolonomicLib::CubicBezier}}
+\doxysubsubsection{\texorpdfstring{getPoint()}{getPoint()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespaceHolonomicLib_a7cceafb5a2f71496d1426c12e9591095}{Point}} Holonomic\+Lib\+::\+Cubic\+Bezier\+::get\+Point (\begin{DoxyParamCaption}\item[{double}]{t }\end{DoxyParamCaption}) const}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\+Holonomic\+Lib/\+Pathing/\+Path/\mbox{\hyperlink{CubicBezier_8hpp}{Cubic\+Bezier.\+hpp}}\item 
+src/\+Holonomic\+Lib/\+Pathing/\+Path/\mbox{\hyperlink{CubicBezier_8cpp}{Cubic\+Bezier.\+cpp}}\end{DoxyCompactItemize}

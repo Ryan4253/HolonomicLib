@@ -1,14 +1,9 @@
 var searchData=
 [
-  ['setcontrollersampletime_61',['setControllerSampleTime',['../classHolonomicLib_1_1AsyncHolonomicChassisController.html#ac19e10d15a6a3662094b5913c98fcd48',1,'HolonomicLib::AsyncHolonomicChassisController']]],
-  ['setpose_62',['setPose',['../classHolonomicLib_1_1AsyncHolonomicChassisController.html#ac24f421fceda62040124c2fcfa61e394',1,'HolonomicLib::AsyncHolonomicChassisController']]],
-  ['setstate_63',['setState',['../classHolonomicLib_1_1StateMachine.html#a9dbf72721774a28d20d5f38cc28f4016',1,'HolonomicLib::StateMachine']]],
-  ['settarget_64',['setTarget',['../classHolonomicLib_1_1AsyncHolonomicChassisController.html#abe2b624eb3ec3efb0f5715d826ad93c1',1,'HolonomicLib::AsyncHolonomicChassisController::setTarget(const Pose2D &amp;ipose, bool waitUntilSettled=false)'],['../classHolonomicLib_1_1AsyncHolonomicChassisController.html#a3609f4c1c91dfee3f12b41b620ff0a82',1,'HolonomicLib::AsyncHolonomicChassisController::setTarget(const Trajectory &amp;itrajectory, bool waitUntilSettled=false)'],['../classHolonomicLib_1_1AsyncHolonomicChassisController.html#a388a64ffd23b7a3f3d8d38fb247ae6ab',1,'HolonomicLib::AsyncHolonomicChassisController::setTarget(const TimedTrajectory &amp;itrajectory, bool waitUntilSettled=false)']]],
-  ['size_65',['size',['../classHolonomicLib_1_1Trajectory.html#a7cee92f600642bffc139ecd966f49681',1,'HolonomicLib::Trajectory::size()'],['../classHolonomicLib_1_1TimedTrajectory.html#aff4b60640c1e19add4d1752dbe0e0bb5',1,'HolonomicLib::TimedTrajectory::size()']]],
-  ['starttask_66',['startTask',['../classHolonomicLib_1_1TaskWrapper.html#a089e272b1a57bacb73fd8641d45e37ef',1,'HolonomicLib::TaskWrapper']]],
-  ['statemachine_67',['StateMachine',['../classHolonomicLib_1_1StateMachine.html',1,'HolonomicLib::StateMachine&lt; State, initState &gt;'],['../classHolonomicLib_1_1StateMachine.html#a6f0aa72f5b506a45f1ca137ccb2a24e4',1,'HolonomicLib::StateMachine::StateMachine()']]],
-  ['statemachine_2ehpp_68',['StateMachine.hpp',['../StateMachine_8hpp.html',1,'']]],
-  ['statemachine_3c_20chassisstate_20_3e_69',['StateMachine&lt; ChassisState &gt;',['../classHolonomicLib_1_1StateMachine.html',1,'HolonomicLib']]],
-  ['stop_70',['stop',['../classHolonomicLib_1_1AsyncHolonomicChassisController.html#a2cbd8303b80c220e95c1a7cb72fcf78d',1,'HolonomicLib::AsyncHolonomicChassisController']]],
-  ['stoptask_71',['stopTask',['../classHolonomicLib_1_1TaskWrapper.html#a754156c423dcfb09dc4342e2833f3bef',1,'HolonomicLib::TaskWrapper']]]
+  ['pausetask_74',['pauseTask',['../classHolonomicLib_1_1TaskWrapper.html#ac0923845cff95c58e808e584dacff2ec',1,'HolonomicLib::TaskWrapper']]],
+  ['point_75',['Point',['../namespaceHolonomicLib.html#a7cceafb5a2f71496d1426c12e9591095',1,'HolonomicLib']]],
+  ['point_2ecpp_76',['Point.cpp',['../Point_8cpp.html',1,'']]],
+  ['pose_77',['Pose',['../classHolonomicLib_1_1Pose.html',1,'HolonomicLib::Pose'],['../classHolonomicLib_1_1Pose.html#aae0c4fcdb51a29b39727563b7b95d9de',1,'HolonomicLib::Pose::Pose()=default'],['../classHolonomicLib_1_1Pose.html#a6952b21767ec0a335003777c797fb010',1,'HolonomicLib::Pose::Pose(const Translation &amp;itranslation, const Rotation &amp;irotation)'],['../classHolonomicLib_1_1Pose.html#a814cd879d0a087f4670b67ff7f517c40',1,'HolonomicLib::Pose::Pose(okapi::QLength ix, okapi::QLength iy, const Rotation &amp;irotation)'],['../classHolonomicLib_1_1Pose.html#a310c28ab1667831839092963fd84b4d6',1,'HolonomicLib::Pose::Pose(const okapi::OdomState &amp;istate)'],['../classHolonomicLib_1_1Pose.html#a8dfdb83c52b1e2ded58f8e0d5d497e42',1,'HolonomicLib::Pose::Pose(const TrajectoryState &amp;istate)'],['../classHolonomicLib_1_1Pose.html#a26d73e42e81697e05107ee82a496b492',1,'HolonomicLib::Pose::Pose(const TimedTrajectoryState &amp;iState)']]],
+  ['pose_2ecpp_78',['Pose.cpp',['../Pose_8cpp.html',1,'']]],
+  ['pose_2ehpp_79',['Pose.hpp',['../Pose_8hpp.html',1,'']]]
 ];

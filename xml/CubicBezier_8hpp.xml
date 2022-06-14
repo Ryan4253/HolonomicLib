@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="CubicBezier_8hpp" kind="file" language="C++">
+    <compoundname>CubicBezier.hpp</compoundname>
+    <includes refid="Translation_8hpp" local="yes">HolonomicLib/Pathing/Geometry/Translation.hpp</includes>
+    <includes refid="DiscretePath_8hpp" local="yes">HolonomicLib/Pathing/Path/DiscretePath.hpp</includes>
+    <includes refid="Math_8hpp" local="yes">HolonomicLib/Utility/Math.hpp</includes>
+    <includes refid="Units_8hpp" local="yes">HolonomicLib/Utility/Units.hpp</includes>
+    <includes local="no">vector</includes>
+    <includedby refid="CubicBezier_8cpp" local="yes">src/HolonomicLib/Pathing/Path/CubicBezier.cpp</includedby>
+    <incdepgraph>
+      <node id="9">
+        <label>okapi/api/units/QAcceleration.hpp</label>
+      </node>
+      <node id="2">
+        <label>HolonomicLib/Pathing/Geometry/Translation.hpp</label>
+        <link refid="Translation_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>okapi/api/units/QSpeed.hpp</label>
+      </node>
+      <node id="17">
+        <label>cmath</label>
+      </node>
+      <node id="4">
+        <label>okapi/api/units/QAngle.hpp</label>
+      </node>
+      <node id="12">
+        <label>okapi/api/units/QAngularSpeed.hpp</label>
+      </node>
+      <node id="5">
+        <label>okapi/api/units/QLength.hpp</label>
+      </node>
+      <node id="13">
+        <label>HolonomicLib/Utility/Math.hpp</label>
+        <link refid="Math_8hpp"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>okapi/api/units/QArea.hpp</label>
+      </node>
+      <node id="15">
+        <label>vector</label>
+      </node>
+      <node id="11">
+        <label>okapi/api/units/QTime.hpp</label>
+      </node>
+      <node id="7">
+        <label>HolonomicLib/Pathing/Path/DiscretePath.hpp</label>
+        <link refid="DiscretePath_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>utility</label>
+      </node>
+      <node id="1">
+        <label>include/HolonomicLib/Pathing/Path/CubicBezier.hpp</label>
+        <link refid="CubicBezier_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Rotation.hpp</label>
+        <link refid="Rotation_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>iostream</label>
+      </node>
+      <node id="8">
+        <label>HolonomicLib/Utility/Units.hpp</label>
+        <link refid="Units_8hpp"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>src/HolonomicLib/Pathing/Path/CubicBezier.cpp</label>
+        <link refid="CubicBezier_8cpp"/>
+      </node>
+      <node id="1">
+        <label>include/HolonomicLib/Pathing/Path/CubicBezier.hpp</label>
+        <link refid="CubicBezier_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classHolonomicLib_1_1CubicBezier" prot="public">HolonomicLib::CubicBezier</innerclass>
+    <innerclass refid="structHolonomicLib_1_1CubicBezier_1_1Knot" prot="public">HolonomicLib::CubicBezier::Knot</innerclass>
+    <innernamespace refid="namespaceHolonomicLib">HolonomicLib</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Translation_8hpp" kindref="compound">HolonomicLib/Pathing/Geometry/Translation.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="DiscretePath_8hpp" kindref="compound">HolonomicLib/Pathing/Path/DiscretePath.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Math_8hpp" kindref="compound">HolonomicLib/Utility/Math.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Units_8hpp" kindref="compound">HolonomicLib/Utility/Units.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceHolonomicLib" kindref="compound">HolonomicLib</ref>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classHolonomicLib_1_1CubicBezier" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classHolonomicLib_1_1CubicBezier" kindref="compound">CubicBezier</ref>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="12" refid="structHolonomicLib_1_1CubicBezier_1_1Knot" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structHolonomicLib_1_1CubicBezier_1_1Knot" kindref="compound">Knot</ref>{</highlight></codeline>
+<codeline lineno="13" refid="structHolonomicLib_1_1CubicBezier_1_1Knot_1a93ea8bd1befedf2a93d9e692df3762b0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>okapi::QLength<sp/><ref refid="structHolonomicLib_1_1CubicBezier_1_1Knot_1ae2e7bea48dd00f741be608902043ebcf" kindref="member">x</ref>,<sp/><ref refid="structHolonomicLib_1_1CubicBezier_1_1Knot_1a93ea8bd1befedf2a93d9e692df3762b0" kindref="member">y</ref>;<sp/>okapi::QAngle<sp/><ref refid="structHolonomicLib_1_1CubicBezier_1_1Knot_1ae7e9487102d6a3229222f464626fef88" kindref="member">angle</ref>;<sp/>okapi::QLength<sp/><ref refid="structHolonomicLib_1_1CubicBezier_1_1Knot_1ab87ea7b88c561648bf3e9f6048cde17f" kindref="member">mag</ref><sp/>=<sp/>1<sp/>*<sp/>okapi::meter;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structHolonomicLib_1_1CubicBezier_1_1Knot_1a1d75d648128efcea6233cb2d9d8499c5" kindref="member">Knot</ref>(okapi::QLength<sp/>ix,<sp/>okapi::QLength<sp/>iy,<sp/>okapi::QAngle<sp/>iangle,<sp/>okapi::QLength<sp/>imag<sp/>=<sp/>1<sp/>*<sp/>okapi::meter);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classHolonomicLib_1_1CubicBezier_1a2d63b60f25eb801c31f4c12792869a30" kindref="member">CubicBezier</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classHolonomicLib_1_1Translation" kindref="compound">Point</ref><sp/>&amp;istart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classHolonomicLib_1_1Translation" kindref="compound">Point</ref><sp/>&amp;icontrol1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classHolonomicLib_1_1Translation" kindref="compound">Point</ref><sp/>&amp;icontrol2,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classHolonomicLib_1_1Translation" kindref="compound">Point</ref><sp/>&amp;iend);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classHolonomicLib_1_1CubicBezier_1a2d63b60f25eb801c31f4c12792869a30" kindref="member">CubicBezier</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structHolonomicLib_1_1CubicBezier_1_1Knot" kindref="compound">Knot</ref><sp/>&amp;istart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structHolonomicLib_1_1CubicBezier_1_1Knot" kindref="compound">Knot</ref><sp/>&amp;iend);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classHolonomicLib_1_1Translation" kindref="compound">Point</ref><sp/><ref refid="classHolonomicLib_1_1CubicBezier_1a521e443bba0351ea7089489196d2c2c0" kindref="member">getPoint</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classHolonomicLib_1_1DiscretePath" kindref="compound">DiscretePath</ref><sp/><ref refid="classHolonomicLib_1_1CubicBezier_1af4afc4cf9541a594f7a40645c3e5dde2" kindref="member">generate</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>istep,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>iend<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classHolonomicLib_1_1Translation" kindref="compound">Point</ref><sp/>start,<sp/>control1,<sp/>control2,<sp/>end;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="include/HolonomicLib/Pathing/Path/CubicBezier.hpp"/>
+  </compounddef>
+</doxygen>

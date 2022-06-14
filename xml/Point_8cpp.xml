@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="Point_8cpp" kind="file" language="C++">
+    <compoundname>Point.cpp</compoundname>
+    <includes refid="Translation_8hpp" local="yes">Translation.hpp</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>Translation.hpp</label>
+        <link refid="Translation_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>okapi/api/units/QAngle.hpp</label>
+      </node>
+      <node id="5">
+        <label>okapi/api/units/QLength.hpp</label>
+      </node>
+      <node id="6">
+        <label>okapi/api/units/QArea.hpp</label>
+      </node>
+      <node id="1">
+        <label>src/HolonomicLib/Pathing/Geometry/Point.cpp</label>
+        <link refid="Point_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Rotation.hpp</label>
+        <link refid="Rotation_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespaceHolonomicLib">HolonomicLib</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Translation_8hpp" kindref="compound">Translation.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceHolonomicLib" kindref="compound">HolonomicLib</ref>{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><ref refid="classHolonomicLib_1_1Translation_1adb69e0c208efe56b8e7fb53573a20571" kindref="member">Translation::Translation</ref>(okapi::QLength<sp/>ix,<sp/>okapi::QLength<sp/>iy){</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>x<sp/>=<sp/>ix;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>y<sp/>=<sp/>iy;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><ref refid="classHolonomicLib_1_1Translation_1adb69e0c208efe56b8e7fb53573a20571" kindref="member">Translation::Translation</ref>(okapi::QLength<sp/>imag,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Rotation<sp/>&amp;iangle){</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>x<sp/>=<sp/>imag<sp/>*<sp/>iangle.Cos();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>y<sp/>=<sp/>imag<sp/>*<sp/>iangle.Sin();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><ref refid="classHolonomicLib_1_1Translation_1adb69e0c208efe56b8e7fb53573a20571" kindref="member">Translation::Translation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Translation<sp/>&amp;rhs){</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>x<sp/>=<sp/>rhs.x;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>y<sp/>=<sp/>rhs.y;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">okapi::QLength<sp/><ref refid="classHolonomicLib_1_1Translation_1a6dca1d8979f1b8cac0feb47746218d5d" kindref="member">Translation::X</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>x;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">okapi::QLength<sp/><ref refid="classHolonomicLib_1_1Translation_1acc826a6cb6a6ecb21c7743d30f97d095" kindref="member">Translation::Y</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>y;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">Translation<sp/><ref refid="classHolonomicLib_1_1Translation_1a3f20a9e03662002c6951437d829208ed" kindref="member">Translation::operator+</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Translation<sp/>&amp;rhs)</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{x<sp/>+<sp/>rhs.x,<sp/>x<sp/>+<sp/>rhs.y};</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">Translation<sp/><ref refid="classHolonomicLib_1_1Translation_1ab8703ecf44599d4d8bad75737f26167e" kindref="member">Translation::operator-</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Translation<sp/>&amp;rhs)</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{x<sp/>+<sp/>rhs.x,<sp/>x<sp/>+<sp/>rhs.y};</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">Translation<sp/><ref refid="classHolonomicLib_1_1Translation_1ab8703ecf44599d4d8bad75737f26167e" kindref="member">Translation::operator-</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{x<sp/>*<sp/>-1,<sp/>y<sp/>*<sp/>-1};</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">Translation<sp/><ref refid="classHolonomicLib_1_1Translation_1aadc4a038ec52153b507114f31e8159e7" kindref="member">Translation::operator*</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>scalar)</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{x<sp/>*<sp/>scalar,<sp/>y<sp/>*<sp/>scalar};</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">okapi::QArea<sp/><ref refid="classHolonomicLib_1_1Translation_1aadc4a038ec52153b507114f31e8159e7" kindref="member">Translation::operator*</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Translation<sp/>&amp;rhs)</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>x<sp/>*<sp/>rhs.x<sp/>+<sp/>y<sp/>*<sp/>rhs.y;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">Translation<sp/><ref refid="classHolonomicLib_1_1Translation_1a510a05887e1bea08312b9f90de96657b" kindref="member">Translation::operator/</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>scalar)</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{x<sp/>/<sp/>scalar,<sp/>y<sp/>/<sp/>scalar};</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classHolonomicLib_1_1Translation_1a167867c9f4982b05df0da6bb63e4bc50" kindref="member">Translation::operator==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Translation<sp/>&amp;rhs)</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>abs(x<sp/>-<sp/>rhs.x)<sp/>&lt;<sp/>1E-9<sp/>*<sp/>okapi::meter<sp/>&amp;&amp;<sp/>abs(y<sp/>-<sp/>rhs.y)<sp/>&lt;<sp/>1E-9<sp/>*<sp/>okapi::meter;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classHolonomicLib_1_1Translation_1a1b1eb85374d19cf31cf73c588a3803ad" kindref="member">Translation::operator!=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Translation<sp/>&amp;rhs)</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!<ref refid="classHolonomicLib_1_1Translation_1a167867c9f4982b05df0da6bb63e4bc50" kindref="member">operator==</ref>(rhs);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classHolonomicLib_1_1Translation_1a944128227c9af51effcad16c8540dfb5" kindref="member">Translation::operator=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Translation<sp/>&amp;rhs){</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>x<sp/>=<sp/>rhs.x,<sp/>y<sp/>=<sp/>rhs.y;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">std::pair&lt;double,<sp/>double&gt;<sp/><ref refid="classHolonomicLib_1_1Translation_1afc587a60af1bdc33183a4fb9b42274d7" kindref="member">Translation::norm</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>okapi::QLength<sp/>magnitude<sp/>=<sp/>this-&gt;<ref refid="classHolonomicLib_1_1Translation_1a4bf1d6568afbfb9c2ed2e25918fad131" kindref="member">mag</ref>();</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(magnitude.getValue()<sp/>==<sp/>0){</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{0,<sp/>0};</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{(x<sp/>/<sp/>magnitude).convert(okapi::number),<sp/>(y<sp/>/<sp/>magnitude).convert(okapi::number)};</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal">okapi::QAngle<sp/><ref refid="classHolonomicLib_1_1Translation_1a47eafa4235e35a1d009ec1b65b82eac1" kindref="member">Translation::Theta</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>atan2(y,<sp/>x);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal">okapi::QLength<sp/><ref refid="classHolonomicLib_1_1Translation_1a18519f00e30e11a45521263ce880cbaa" kindref="member">Translation::distTo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Translation<sp/>&amp;rhs)</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>hypot(rhs.x<sp/>-<sp/>x,<sp/>rhs.y<sp/>-<sp/>y);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">okapi::QAngle<sp/><ref refid="classHolonomicLib_1_1Translation_1af67321b3564ddfe6b28bd65fdbff43e8" kindref="member">Translation::angleTo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Translation<sp/>&amp;rhs)</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>acos(((*</highlight><highlight class="keyword">this</highlight><highlight class="normal">)<sp/>*<sp/>rhs)<sp/>/<sp/><ref refid="classHolonomicLib_1_1Translation_1a4bf1d6568afbfb9c2ed2e25918fad131" kindref="member">mag</ref>()<sp/>/<sp/>rhs.mag());</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal">okapi::QLength<sp/><ref refid="classHolonomicLib_1_1Translation_1a4bf1d6568afbfb9c2ed2e25918fad131" kindref="member">Translation::mag</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>hypot(x,<sp/>y);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal">Translation<sp/><ref refid="classHolonomicLib_1_1Translation_1a07cc515ceb5c39db2def8e3ad734f220" kindref="member">Translation::rotateBy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Rotation<sp/>&amp;rhs)</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{x<sp/>*<sp/>rhs.Cos()<sp/>-<sp/>y<sp/>*<sp/>rhs.Sin(),<sp/>x<sp/>*<sp/>rhs.Sin()<sp/>+<sp/>y<sp/>*<sp/>rhs.Cos()};</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classHolonomicLib_1_1Translation_1a3bad0aa35d319c2ccf1fe85f9943cf04" kindref="member">Translation::setX</ref>(okapi::QLength<sp/>ix){</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>x<sp/>=<sp/>ix;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classHolonomicLib_1_1Translation_1aeea43e09b7b50dde9ae779f8cb02cdcf" kindref="member">Translation::setY</ref>(okapi::QLength<sp/>iy){</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>y<sp/>=<sp/>iy;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/HolonomicLib/Pathing/Geometry/Point.cpp"/>
+  </compounddef>
+</doxygen>

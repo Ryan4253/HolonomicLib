@@ -1,0 +1,193 @@
+\hypertarget{classHolonomicLib_1_1Pose}{}\doxysection{Holonomic\+Lib\+::Pose Class Reference}
+\label{classHolonomicLib_1_1Pose}\index{HolonomicLib::Pose@{HolonomicLib::Pose}}
+
+
+{\ttfamily \#include $<$Pose.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+constexpr \mbox{\hyperlink{classHolonomicLib_1_1Pose_aae0c4fcdb51a29b39727563b7b95d9de}{Pose}} ()=default
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{classHolonomicLib_1_1Pose}{Pose}} 2D object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classHolonomicLib_1_1Pose_a6952b21767ec0a335003777c797fb010}{Pose}} (const \mbox{\hyperlink{classHolonomicLib_1_1Translation}{Translation}} \&itranslation, const \mbox{\hyperlink{classHolonomicLib_1_1Rotation}{Rotation}} \&irotation)
+\item 
+\mbox{\hyperlink{classHolonomicLib_1_1Pose_a814cd879d0a087f4670b67ff7f517c40}{Pose}} (okapi\+::\+Q\+Length ix, okapi\+::\+Q\+Length iy, const \mbox{\hyperlink{classHolonomicLib_1_1Rotation}{Rotation}} \&irotation)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{classHolonomicLib_1_1Pose}{Pose}} 2D object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classHolonomicLib_1_1Pose_a310c28ab1667831839092963fd84b4d6}{Pose}} (const okapi\+::\+Odom\+State \&istate)
+\begin{DoxyCompactList}\small\item\em Converts an okapi Odom\+State into a Pose2D This is done by negating y coordinate and constraining theta to be between -\/180 and 180. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classHolonomicLib_1_1Pose_a8dfdb83c52b1e2ded58f8e0d5d497e42}{Pose}} (const \mbox{\hyperlink{structHolonomicLib_1_1TrajectoryState}{Trajectory\+State}} \&istate)
+\begin{DoxyCompactList}\small\item\em Converts a \mbox{\hyperlink{structHolonomicLib_1_1TrajectoryState}{Trajectory\+State}} into a Pose2D This is done by adding units (feet / degree) to the trajectory state\textquotesingle{}s x, y and theta. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classHolonomicLib_1_1Pose_a26d73e42e81697e05107ee82a496b492}{Pose}} (const \mbox{\hyperlink{structHolonomicLib_1_1TimedTrajectoryState}{Timed\+Trajectory\+State}} \&i\+State)
+\begin{DoxyCompactList}\small\item\em Converts a \mbox{\hyperlink{structHolonomicLib_1_1TimedTrajectoryState}{Timed\+Trajectory\+State}} into a Pose2D This is done by adding units (feet / degree) to the trajectory state\textquotesingle{}s x, y and theta. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classHolonomicLib_1_1Pose_ae1b8edd0acefbe6da254306f93df7e25}{$\sim$\+Pose}} ()=default
+\item 
+const \mbox{\hyperlink{classHolonomicLib_1_1Translation}{Translation}} \& \mbox{\hyperlink{classHolonomicLib_1_1Pose_a319090c178940ae15e807ca6e043a087}{get\+Translation}} () const
+\item 
+const \mbox{\hyperlink{classHolonomicLib_1_1Rotation}{Rotation}} \& \mbox{\hyperlink{classHolonomicLib_1_1Pose_afd4e383feb9b5a892ff3ec46659eae1d}{get\+Rotation}} () const
+\item 
+okapi\+::\+Q\+Length \mbox{\hyperlink{classHolonomicLib_1_1Pose_aab9ca116e22a2f3f49af8c749031ed5a}{X}} () const
+\item 
+okapi\+::\+Q\+Length \mbox{\hyperlink{classHolonomicLib_1_1Pose_abcf67e42436a2c894594a9194d9d93ea}{Y}} () const
+\item 
+okapi\+::\+Q\+Angle \mbox{\hyperlink{classHolonomicLib_1_1Pose_a6e9b98815618e23a02cbbe6216393572}{Theta}} () const
+\item 
+bool \mbox{\hyperlink{classHolonomicLib_1_1Pose_a70445fa892855b7a1cd30e054b733ec7}{operator==}} (const \mbox{\hyperlink{classHolonomicLib_1_1Pose}{Pose}} \&rhs) const
+\item 
+bool \mbox{\hyperlink{classHolonomicLib_1_1Pose_a0c5b6d3444d3d3e74fd24f224906986d}{operator!=}} (const \mbox{\hyperlink{classHolonomicLib_1_1Pose}{Pose}} \&rhs) const
+\item 
+void \mbox{\hyperlink{classHolonomicLib_1_1Pose_a85f9e1cfaca14bbff057385367bee855}{operator=}} (const \mbox{\hyperlink{classHolonomicLib_1_1Pose}{Pose}} \&rhs)
+\item 
+okapi\+::\+Q\+Angle \mbox{\hyperlink{classHolonomicLib_1_1Pose_a12f855e3ed77513e9587f06f9b3d5515}{angle\+To}} (const \mbox{\hyperlink{classHolonomicLib_1_1Translation}{Translation}} \&rhs) const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classHolonomicLib_1_1Pose_aae0c4fcdb51a29b39727563b7b95d9de}\label{classHolonomicLib_1_1Pose_aae0c4fcdb51a29b39727563b7b95d9de}} 
+\index{HolonomicLib::Pose@{HolonomicLib::Pose}!Pose@{Pose}}
+\index{Pose@{Pose}!HolonomicLib::Pose@{HolonomicLib::Pose}}
+\doxysubsubsection{\texorpdfstring{Pose()}{Pose()}\hspace{0.1cm}{\footnotesize\ttfamily [1/6]}}
+{\footnotesize\ttfamily constexpr Holonomic\+Lib\+::\+Pose\+::\+Pose (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [constexpr]}, {\ttfamily [default]}}
+
+
+
+Construct a new \mbox{\hyperlink{classHolonomicLib_1_1Pose}{Pose}} 2D object. 
+
+\mbox{\Hypertarget{classHolonomicLib_1_1Pose_a6952b21767ec0a335003777c797fb010}\label{classHolonomicLib_1_1Pose_a6952b21767ec0a335003777c797fb010}} 
+\index{HolonomicLib::Pose@{HolonomicLib::Pose}!Pose@{Pose}}
+\index{Pose@{Pose}!HolonomicLib::Pose@{HolonomicLib::Pose}}
+\doxysubsubsection{\texorpdfstring{Pose()}{Pose()}\hspace{0.1cm}{\footnotesize\ttfamily [2/6]}}
+{\footnotesize\ttfamily Holonomic\+Lib\+::\+Pose\+::\+Pose (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classHolonomicLib_1_1Translation}{Translation}} \&}]{itranslation,  }\item[{const \mbox{\hyperlink{classHolonomicLib_1_1Rotation}{Rotation}} \&}]{irotation }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classHolonomicLib_1_1Pose_a814cd879d0a087f4670b67ff7f517c40}\label{classHolonomicLib_1_1Pose_a814cd879d0a087f4670b67ff7f517c40}} 
+\index{HolonomicLib::Pose@{HolonomicLib::Pose}!Pose@{Pose}}
+\index{Pose@{Pose}!HolonomicLib::Pose@{HolonomicLib::Pose}}
+\doxysubsubsection{\texorpdfstring{Pose()}{Pose()}\hspace{0.1cm}{\footnotesize\ttfamily [3/6]}}
+{\footnotesize\ttfamily Holonomic\+Lib\+::\+Pose\+::\+Pose (\begin{DoxyParamCaption}\item[{okapi\+::\+Q\+Length}]{ix,  }\item[{okapi\+::\+Q\+Length}]{iy,  }\item[{const \mbox{\hyperlink{classHolonomicLib_1_1Rotation}{Rotation}} \&}]{irotation }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{classHolonomicLib_1_1Pose}{Pose}} 2D object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ix} & x \\
+\hline
+{\em iy} & y \\
+\hline
+{\em itheta} & angle \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classHolonomicLib_1_1Pose_a310c28ab1667831839092963fd84b4d6}\label{classHolonomicLib_1_1Pose_a310c28ab1667831839092963fd84b4d6}} 
+\index{HolonomicLib::Pose@{HolonomicLib::Pose}!Pose@{Pose}}
+\index{Pose@{Pose}!HolonomicLib::Pose@{HolonomicLib::Pose}}
+\doxysubsubsection{\texorpdfstring{Pose()}{Pose()}\hspace{0.1cm}{\footnotesize\ttfamily [4/6]}}
+{\footnotesize\ttfamily Holonomic\+Lib\+::\+Pose\+::\+Pose (\begin{DoxyParamCaption}\item[{const okapi\+::\+Odom\+State \&}]{istate }\end{DoxyParamCaption})}
+
+
+
+Converts an okapi Odom\+State into a Pose2D This is done by negating y coordinate and constraining theta to be between -\/180 and 180. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em istate} & the supplied Odom\+State \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classHolonomicLib_1_1Pose_a8dfdb83c52b1e2ded58f8e0d5d497e42}\label{classHolonomicLib_1_1Pose_a8dfdb83c52b1e2ded58f8e0d5d497e42}} 
+\index{HolonomicLib::Pose@{HolonomicLib::Pose}!Pose@{Pose}}
+\index{Pose@{Pose}!HolonomicLib::Pose@{HolonomicLib::Pose}}
+\doxysubsubsection{\texorpdfstring{Pose()}{Pose()}\hspace{0.1cm}{\footnotesize\ttfamily [5/6]}}
+{\footnotesize\ttfamily Holonomic\+Lib\+::\+Pose\+::\+Pose (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structHolonomicLib_1_1TrajectoryState}{Trajectory\+State}} \&}]{istate }\end{DoxyParamCaption})}
+
+
+
+Converts a \mbox{\hyperlink{structHolonomicLib_1_1TrajectoryState}{Trajectory\+State}} into a Pose2D This is done by adding units (feet / degree) to the trajectory state\textquotesingle{}s x, y and theta. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i\+State} & the supplied Trajectory\+Staet \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classHolonomicLib_1_1Pose_a26d73e42e81697e05107ee82a496b492}\label{classHolonomicLib_1_1Pose_a26d73e42e81697e05107ee82a496b492}} 
+\index{HolonomicLib::Pose@{HolonomicLib::Pose}!Pose@{Pose}}
+\index{Pose@{Pose}!HolonomicLib::Pose@{HolonomicLib::Pose}}
+\doxysubsubsection{\texorpdfstring{Pose()}{Pose()}\hspace{0.1cm}{\footnotesize\ttfamily [6/6]}}
+{\footnotesize\ttfamily Holonomic\+Lib\+::\+Pose\+::\+Pose (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structHolonomicLib_1_1TimedTrajectoryState}{Timed\+Trajectory\+State}} \&}]{i\+State }\end{DoxyParamCaption})}
+
+
+
+Converts a \mbox{\hyperlink{structHolonomicLib_1_1TimedTrajectoryState}{Timed\+Trajectory\+State}} into a Pose2D This is done by adding units (feet / degree) to the trajectory state\textquotesingle{}s x, y and theta. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i\+State} & the supplied\+Time\+Trajectory\+State \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classHolonomicLib_1_1Pose_ae1b8edd0acefbe6da254306f93df7e25}\label{classHolonomicLib_1_1Pose_ae1b8edd0acefbe6da254306f93df7e25}} 
+\index{HolonomicLib::Pose@{HolonomicLib::Pose}!````~Pose@{$\sim$Pose}}
+\index{````~Pose@{$\sim$Pose}!HolonomicLib::Pose@{HolonomicLib::Pose}}
+\doxysubsubsection{\texorpdfstring{$\sim$Pose()}{~Pose()}}
+{\footnotesize\ttfamily Holonomic\+Lib\+::\+Pose\+::$\sim$\+Pose (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classHolonomicLib_1_1Pose_a12f855e3ed77513e9587f06f9b3d5515}\label{classHolonomicLib_1_1Pose_a12f855e3ed77513e9587f06f9b3d5515}} 
+\index{HolonomicLib::Pose@{HolonomicLib::Pose}!angleTo@{angleTo}}
+\index{angleTo@{angleTo}!HolonomicLib::Pose@{HolonomicLib::Pose}}
+\doxysubsubsection{\texorpdfstring{angleTo()}{angleTo()}}
+{\footnotesize\ttfamily okapi\+::\+Q\+Angle Holonomic\+Lib\+::\+Pose\+::angle\+To (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classHolonomicLib_1_1Translation}{Translation}} \&}]{rhs }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classHolonomicLib_1_1Pose_afd4e383feb9b5a892ff3ec46659eae1d}\label{classHolonomicLib_1_1Pose_afd4e383feb9b5a892ff3ec46659eae1d}} 
+\index{HolonomicLib::Pose@{HolonomicLib::Pose}!getRotation@{getRotation}}
+\index{getRotation@{getRotation}!HolonomicLib::Pose@{HolonomicLib::Pose}}
+\doxysubsubsection{\texorpdfstring{getRotation()}{getRotation()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classHolonomicLib_1_1Rotation}{Rotation}} \& Holonomic\+Lib\+::\+Pose\+::get\+Rotation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classHolonomicLib_1_1Pose_a319090c178940ae15e807ca6e043a087}\label{classHolonomicLib_1_1Pose_a319090c178940ae15e807ca6e043a087}} 
+\index{HolonomicLib::Pose@{HolonomicLib::Pose}!getTranslation@{getTranslation}}
+\index{getTranslation@{getTranslation}!HolonomicLib::Pose@{HolonomicLib::Pose}}
+\doxysubsubsection{\texorpdfstring{getTranslation()}{getTranslation()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classHolonomicLib_1_1Translation}{Translation}} \& Holonomic\+Lib\+::\+Pose\+::get\+Translation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classHolonomicLib_1_1Pose_a0c5b6d3444d3d3e74fd24f224906986d}\label{classHolonomicLib_1_1Pose_a0c5b6d3444d3d3e74fd24f224906986d}} 
+\index{HolonomicLib::Pose@{HolonomicLib::Pose}!operator"!=@{operator"!=}}
+\index{operator"!=@{operator"!=}!HolonomicLib::Pose@{HolonomicLib::Pose}}
+\doxysubsubsection{\texorpdfstring{operator"!=()}{operator!=()}}
+{\footnotesize\ttfamily bool Holonomic\+Lib\+::\+Pose\+::operator!= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classHolonomicLib_1_1Pose}{Pose}} \&}]{rhs }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classHolonomicLib_1_1Pose_a85f9e1cfaca14bbff057385367bee855}\label{classHolonomicLib_1_1Pose_a85f9e1cfaca14bbff057385367bee855}} 
+\index{HolonomicLib::Pose@{HolonomicLib::Pose}!operator=@{operator=}}
+\index{operator=@{operator=}!HolonomicLib::Pose@{HolonomicLib::Pose}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily void Holonomic\+Lib\+::\+Pose\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classHolonomicLib_1_1Pose}{Pose}} \&}]{rhs }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classHolonomicLib_1_1Pose_a70445fa892855b7a1cd30e054b733ec7}\label{classHolonomicLib_1_1Pose_a70445fa892855b7a1cd30e054b733ec7}} 
+\index{HolonomicLib::Pose@{HolonomicLib::Pose}!operator==@{operator==}}
+\index{operator==@{operator==}!HolonomicLib::Pose@{HolonomicLib::Pose}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool Holonomic\+Lib\+::\+Pose\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classHolonomicLib_1_1Pose}{Pose}} \&}]{rhs }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classHolonomicLib_1_1Pose_a6e9b98815618e23a02cbbe6216393572}\label{classHolonomicLib_1_1Pose_a6e9b98815618e23a02cbbe6216393572}} 
+\index{HolonomicLib::Pose@{HolonomicLib::Pose}!Theta@{Theta}}
+\index{Theta@{Theta}!HolonomicLib::Pose@{HolonomicLib::Pose}}
+\doxysubsubsection{\texorpdfstring{Theta()}{Theta()}}
+{\footnotesize\ttfamily okapi\+::\+Q\+Angle Holonomic\+Lib\+::\+Pose\+::\+Theta (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classHolonomicLib_1_1Pose_aab9ca116e22a2f3f49af8c749031ed5a}\label{classHolonomicLib_1_1Pose_aab9ca116e22a2f3f49af8c749031ed5a}} 
+\index{HolonomicLib::Pose@{HolonomicLib::Pose}!X@{X}}
+\index{X@{X}!HolonomicLib::Pose@{HolonomicLib::Pose}}
+\doxysubsubsection{\texorpdfstring{X()}{X()}}
+{\footnotesize\ttfamily okapi\+::\+Q\+Length Holonomic\+Lib\+::\+Pose\+::X (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classHolonomicLib_1_1Pose_abcf67e42436a2c894594a9194d9d93ea}\label{classHolonomicLib_1_1Pose_abcf67e42436a2c894594a9194d9d93ea}} 
+\index{HolonomicLib::Pose@{HolonomicLib::Pose}!Y@{Y}}
+\index{Y@{Y}!HolonomicLib::Pose@{HolonomicLib::Pose}}
+\doxysubsubsection{\texorpdfstring{Y()}{Y()}}
+{\footnotesize\ttfamily okapi\+::\+Q\+Length Holonomic\+Lib\+::\+Pose\+::Y (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\+Holonomic\+Lib/\+Pathing/\+Geometry/\mbox{\hyperlink{Pose_8hpp}{Pose.\+hpp}}\item 
+src/\+Holonomic\+Lib/\+Pathing/\+Geometry/\mbox{\hyperlink{Pose_8cpp}{Pose.\+cpp}}\end{DoxyCompactItemize}

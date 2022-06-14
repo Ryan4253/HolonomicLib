@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_b37517e721cdda0db6c4d9a62b15382b" kind="dir">
+    <compoundname>include/HolonomicLib/Pathing/Path</compoundname>
+    <innerfile refid="CubicBezier_8hpp">CubicBezier.hpp</innerfile>
+    <innerfile refid="DiscretePath_8hpp">DiscretePath.hpp</innerfile>
+    <innerfile refid="SimplePath_8hpp">SimplePath.hpp</innerfile>
+    <innerfile refid="Trajectory_8hpp">Trajectory.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="include/HolonomicLib/Pathing/Path/"/>
+  </compounddef>
+</doxygen>

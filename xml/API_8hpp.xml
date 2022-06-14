@@ -3,15 +3,26 @@
   <compounddef id="API_8hpp" kind="file" language="C++">
     <compoundname>API.hpp</compoundname>
     <includes refid="AsyncHolonomicChassisController_8hpp" local="yes">HolonomicLib/Chassis/Controller/AsyncHolonomicChassisController.hpp</includes>
-    <includes refid="Pose2D_8hpp" local="yes">HolonomicLib/Pathing/Pose2D.hpp</includes>
-    <includes refid="Trajectory_8hpp" local="yes">HolonomicLib/Pathing/Trajectory.hpp</includes>
+    <includes local="yes">HolonomicLib/Pathing/Pose2D.hpp</includes>
+    <includes local="yes">HolonomicLib/Pathing/Trajectory.hpp</includes>
     <includes refid="Math_8hpp" local="yes">HolonomicLib/Utility/Math.hpp</includes>
     <includes refid="Units_8hpp" local="yes">HolonomicLib/Utility/Units.hpp</includes>
     <includes refid="TaskWrapper_8hpp" local="yes">HolonomicLib/Utility/TaskWrapper.hpp</includes>
     <includes refid="StateMachine_8hpp" local="yes">HolonomicLib/Utility/StateMachine.hpp</includes>
     <incdepgraph>
+      <node id="29">
+        <label>HolonomicLib/Pathing/Trajectory.hpp</label>
+      </node>
       <node id="8">
         <label>okapi/api/units/QAcceleration.hpp</label>
+      </node>
+      <node id="21">
+        <label>Translation.hpp</label>
+        <link refid="Translation_8hpp"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
       </node>
       <node id="9">
         <label>okapi/api/units/QSpeed.hpp</label>
@@ -30,9 +41,9 @@
         <link refid="API_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
@@ -43,14 +54,12 @@
         <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="20">
-        <label>HolonomicLib/Pathing/Pose2D.hpp</label>
-        <link refid="Pose2D_8hpp"/>
-        <childnode refid="21" relation="include">
+      <node id="24">
+        <label>HolonomicLib/Pathing/Path/Trajectory.hpp</label>
+        <link refid="Trajectory_8hpp"/>
+        <childnode refid="25" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
       <node id="13">
@@ -61,22 +70,17 @@
         <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="21">
+      <node id="27">
         <label>okapi/api/odometry/odomState.hpp</label>
       </node>
-      <node id="24">
+      <node id="23">
+        <label>okapi/api/units/QArea.hpp</label>
+      </node>
+      <node id="26">
         <label>vector</label>
       </node>
       <node id="11">
         <label>okapi/api/units/QTime.hpp</label>
-      </node>
-      <node id="22">
-        <label>HolonomicLib/Pathing/Trajectory.hpp</label>
-        <link refid="Trajectory_8hpp"/>
-        <childnode refid="23" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
       </node>
       <node id="14">
         <label>utility</label>
@@ -96,6 +100,24 @@
         <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>Rotation.hpp</label>
+        <link refid="Rotation_8hpp"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>HolonomicLib/Pathing/Geometry/Pose.hpp</label>
+        <link refid="Pose_8hpp"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -143,10 +165,13 @@
         <childnode refid="12" relation="include">
         </childnode>
       </node>
+      <node id="28">
+        <label>HolonomicLib/Pathing/Pose2D.hpp</label>
+      </node>
       <node id="19">
         <label>memory</label>
       </node>
-      <node id="23">
+      <node id="25">
         <label>initializer_list</label>
       </node>
       <node id="6">
@@ -166,8 +191,8 @@
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceHolonomicLib" kindref="compound">HolonomicLib</ref>;</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="AsyncHolonomicChassisController_8hpp" kindref="compound">HolonomicLib/Chassis/Controller/AsyncHolonomicChassisController.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Pose2D_8hpp" kindref="compound">HolonomicLib/Pathing/Pose2D.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Trajectory_8hpp" kindref="compound">HolonomicLib/Pathing/Trajectory.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;HolonomicLib/Pathing/Pose2D.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;HolonomicLib/Pathing/Trajectory.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Math_8hpp" kindref="compound">HolonomicLib/Utility/Math.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Units_8hpp" kindref="compound">HolonomicLib/Utility/Units.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="TaskWrapper_8hpp" kindref="compound">HolonomicLib/Utility/TaskWrapper.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>

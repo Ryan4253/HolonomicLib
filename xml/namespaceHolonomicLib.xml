@@ -4,13 +4,18 @@
     <compoundname>HolonomicLib</compoundname>
     <innerclass refid="classHolonomicLib_1_1AsyncHolonomicChassisController" prot="public">HolonomicLib::AsyncHolonomicChassisController</innerclass>
     <innerclass refid="classHolonomicLib_1_1AsyncHolonomicChassisControllerBuilder" prot="public">HolonomicLib::AsyncHolonomicChassisControllerBuilder</innerclass>
-    <innerclass refid="structHolonomicLib_1_1Pose2D" prot="public">HolonomicLib::Pose2D</innerclass>
+    <innerclass refid="classHolonomicLib_1_1CubicBezier" prot="public">HolonomicLib::CubicBezier</innerclass>
+    <innerclass refid="classHolonomicLib_1_1DiscretePath" prot="public">HolonomicLib::DiscretePath</innerclass>
+    <innerclass refid="classHolonomicLib_1_1Pose" prot="public">HolonomicLib::Pose</innerclass>
+    <innerclass refid="classHolonomicLib_1_1Rotation" prot="public">HolonomicLib::Rotation</innerclass>
+    <innerclass refid="classHolonomicLib_1_1SimplePath" prot="public">HolonomicLib::SimplePath</innerclass>
     <innerclass refid="classHolonomicLib_1_1StateMachine" prot="public">HolonomicLib::StateMachine</innerclass>
     <innerclass refid="classHolonomicLib_1_1TaskWrapper" prot="public">HolonomicLib::TaskWrapper</innerclass>
     <innerclass refid="classHolonomicLib_1_1TimedTrajectory" prot="public">HolonomicLib::TimedTrajectory</innerclass>
     <innerclass refid="structHolonomicLib_1_1TimedTrajectoryState" prot="public">HolonomicLib::TimedTrajectoryState</innerclass>
     <innerclass refid="classHolonomicLib_1_1Trajectory" prot="public">HolonomicLib::Trajectory</innerclass>
     <innerclass refid="structHolonomicLib_1_1TrajectoryState" prot="public">HolonomicLib::TrajectoryState</innerclass>
+    <innerclass refid="classHolonomicLib_1_1Translation" prot="public">HolonomicLib::Translation</innerclass>
     <innernamespace refid="namespaceHolonomicLib_1_1Math">HolonomicLib::Math</innernamespace>
       <sectiondef kind="enum">
       <memberdef kind="enum" id="namespaceHolonomicLib_1afed0dfbd97b270c1dc11f0b884f915bd" prot="public" static="no" strong="yes">
@@ -45,6 +50,21 @@
         <inbodydescription>
         </inbodydescription>
         <location file="include/HolonomicLib/Chassis/Controller/AsyncHolonomicChassisController.hpp" line="24" column="1" bodyfile="include/HolonomicLib/Chassis/Controller/AsyncHolonomicChassisController.hpp" bodystart="23" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceHolonomicLib_1a7cceafb5a2f71496d1426c12e9591095" prot="public" static="no">
+        <type><ref refid="classHolonomicLib_1_1Translation" kindref="compound">Translation</ref></type>
+        <definition>typedef Translation HolonomicLib::Point</definition>
+        <argsstring></argsstring>
+        <name>Point</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="73" column="21" bodyfile="include/HolonomicLib/Pathing/Geometry/Translation.hpp" bodystart="73" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

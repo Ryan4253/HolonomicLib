@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structHolonomicLib_1_1CubicBezier_1_1Knot" kind="struct" language="C++" prot="public">
+    <compoundname>HolonomicLib::CubicBezier::Knot</compoundname>
+    <includes refid="CubicBezier_8hpp" local="no">CubicBezier.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structHolonomicLib_1_1CubicBezier_1_1Knot_1ae2e7bea48dd00f741be608902043ebcf" prot="public" static="no" mutable="no">
+        <type>okapi::QLength</type>
+        <definition>okapi::QLength HolonomicLib::CubicBezier::Knot::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Path/CubicBezier.hpp" line="13" column="16" bodyfile="include/HolonomicLib/Pathing/Path/CubicBezier.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structHolonomicLib_1_1CubicBezier_1_1Knot_1a93ea8bd1befedf2a93d9e692df3762b0" prot="public" static="no" mutable="no">
+        <type>okapi::QLength</type>
+        <definition>okapi::QLength HolonomicLib::CubicBezier::Knot::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Path/CubicBezier.hpp" line="13" column="18" bodyfile="include/HolonomicLib/Pathing/Path/CubicBezier.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structHolonomicLib_1_1CubicBezier_1_1Knot_1ae7e9487102d6a3229222f464626fef88" prot="public" static="no" mutable="no">
+        <type>okapi::QAngle</type>
+        <definition>okapi::QAngle HolonomicLib::CubicBezier::Knot::angle</definition>
+        <argsstring></argsstring>
+        <name>angle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Path/CubicBezier.hpp" line="13" column="34" bodyfile="include/HolonomicLib/Pathing/Path/CubicBezier.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structHolonomicLib_1_1CubicBezier_1_1Knot_1ab87ea7b88c561648bf3e9f6048cde17f" prot="public" static="no" mutable="no">
+        <type>okapi::QLength</type>
+        <definition>okapi::QLength HolonomicLib::CubicBezier::Knot::mag</definition>
+        <argsstring></argsstring>
+        <name>mag</name>
+        <initializer>= 1 * okapi::meter</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Path/CubicBezier.hpp" line="13" column="55" bodyfile="include/HolonomicLib/Pathing/Path/CubicBezier.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structHolonomicLib_1_1CubicBezier_1_1Knot_1a1d75d648128efcea6233cb2d9d8499c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HolonomicLib::CubicBezier::Knot::Knot</definition>
+        <argsstring>(okapi::QLength ix, okapi::QLength iy, okapi::QAngle iangle, okapi::QLength imag=1 *okapi::meter)</argsstring>
+        <name>Knot</name>
+        <param>
+          <type>okapi::QLength</type>
+          <declname>ix</declname>
+        </param>
+        <param>
+          <type>okapi::QLength</type>
+          <declname>iy</declname>
+        </param>
+        <param>
+          <type>okapi::QAngle</type>
+          <declname>iangle</declname>
+        </param>
+        <param>
+          <type>okapi::QLength</type>
+          <declname>imag</declname>
+          <defval>1 *okapi::meter</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/HolonomicLib/Pathing/Path/CubicBezier.hpp" line="14" column="1" bodyfile="src/HolonomicLib/Pathing/Path/CubicBezier.cpp" bodystart="6" bodyend="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="include/HolonomicLib/Pathing/Path/CubicBezier.hpp" line="12" column="15" bodyfile="include/HolonomicLib/Pathing/Path/CubicBezier.hpp" bodystart="12" bodyend="15"/>
+    <listofallmembers>
+      <member refid="structHolonomicLib_1_1CubicBezier_1_1Knot_1ae7e9487102d6a3229222f464626fef88" prot="public" virt="non-virtual"><scope>HolonomicLib::CubicBezier::Knot</scope><name>angle</name></member>
+      <member refid="structHolonomicLib_1_1CubicBezier_1_1Knot_1a1d75d648128efcea6233cb2d9d8499c5" prot="public" virt="non-virtual"><scope>HolonomicLib::CubicBezier::Knot</scope><name>Knot</name></member>
+      <member refid="structHolonomicLib_1_1CubicBezier_1_1Knot_1ab87ea7b88c561648bf3e9f6048cde17f" prot="public" virt="non-virtual"><scope>HolonomicLib::CubicBezier::Knot</scope><name>mag</name></member>
+      <member refid="structHolonomicLib_1_1CubicBezier_1_1Knot_1ae2e7bea48dd00f741be608902043ebcf" prot="public" virt="non-virtual"><scope>HolonomicLib::CubicBezier::Knot</scope><name>x</name></member>
+      <member refid="structHolonomicLib_1_1CubicBezier_1_1Knot_1a93ea8bd1befedf2a93d9e692df3762b0" prot="public" virt="non-virtual"><scope>HolonomicLib::CubicBezier::Knot</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

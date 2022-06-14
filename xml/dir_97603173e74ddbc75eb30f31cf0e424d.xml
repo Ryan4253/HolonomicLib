@@ -2,8 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
   <compounddef id="dir_97603173e74ddbc75eb30f31cf0e424d" kind="dir">
     <compoundname>include/HolonomicLib/Pathing</compoundname>
-    <innerfile refid="Pose2D_8hpp">Pose2D.hpp</innerfile>
-    <innerfile refid="Trajectory_8hpp">Trajectory.hpp</innerfile>
+    <innerdir refid="dir_7ddb63c0c6bae1cf9b8b34ed954a7246">include/HolonomicLib/Pathing/Geometry</innerdir>
+    <innerdir refid="dir_b37517e721cdda0db6c4d9a62b15382b">include/HolonomicLib/Pathing/Path</innerdir>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
