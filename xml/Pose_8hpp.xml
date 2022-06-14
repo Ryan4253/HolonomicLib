@@ -5,6 +5,7 @@
     <includes refid="Translation_8hpp" local="yes">Translation.hpp</includes>
     <includes refid="Trajectory_8hpp" local="yes">HolonomicLib/Pathing/Path/Trajectory.hpp</includes>
     <includes local="yes">okapi/api/odometry/odomState.hpp</includes>
+    <includedby refid="API_8hpp" local="yes">include/HolonomicLib/API.hpp</includedby>
     <includedby refid="AsyncHolonomicChassisController_8hpp" local="yes">include/HolonomicLib/Chassis/Controller/AsyncHolonomicChassisController.hpp</includedby>
     <includedby refid="Pose_8cpp" local="yes">src/HolonomicLib/Pathing/Geometry/Pose.cpp</includedby>
     <incdepgraph>
@@ -62,7 +63,7 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="3">
+      <node id="2">
         <label>include/HolonomicLib/API.hpp</label>
         <link refid="API_8hpp"/>
       </node>
@@ -75,6 +76,8 @@
         <link refid="Pose_8hpp"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
@@ -82,10 +85,10 @@
         <label>src/HolonomicLib/Pathing/Geometry/Pose.cpp</label>
         <link refid="Pose_8cpp"/>
       </node>
-      <node id="2">
+      <node id="3">
         <label>include/HolonomicLib/Chassis/Controller/AsyncHolonomicChassisController.hpp</label>
         <link refid="AsyncHolonomicChassisController_8hpp"/>
-        <childnode refid="3" relation="include">
+        <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>

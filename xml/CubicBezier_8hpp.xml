@@ -7,6 +7,7 @@
     <includes refid="Math_8hpp" local="yes">HolonomicLib/Utility/Math.hpp</includes>
     <includes refid="Units_8hpp" local="yes">HolonomicLib/Utility/Units.hpp</includes>
     <includes local="no">vector</includes>
+    <includedby refid="API_8hpp" local="yes">include/HolonomicLib/API.hpp</includedby>
     <includedby refid="CubicBezier_8cpp" local="yes">src/HolonomicLib/Pathing/Path/CubicBezier.cpp</includedby>
     <incdepgraph>
       <node id="9">
@@ -113,6 +114,10 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
+        <label>include/HolonomicLib/API.hpp</label>
+        <link refid="API_8hpp"/>
+      </node>
+      <node id="3">
         <label>src/HolonomicLib/Pathing/Path/CubicBezier.cpp</label>
         <link refid="CubicBezier_8cpp"/>
       </node>
@@ -120,6 +125,8 @@
         <label>include/HolonomicLib/Pathing/Path/CubicBezier.hpp</label>
         <link refid="CubicBezier_8hpp"/>
         <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
     </invincdepgraph>

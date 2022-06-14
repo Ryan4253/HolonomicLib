@@ -4,6 +4,7 @@
     <compoundname>Trajectory.hpp</compoundname>
     <includes local="no">initializer_list</includes>
     <includes local="no">vector</includes>
+    <includedby refid="API_8hpp" local="yes">include/HolonomicLib/API.hpp</includedby>
     <includedby refid="Pose_8hpp" local="yes">include/HolonomicLib/Pathing/Geometry/Pose.hpp</includedby>
     <includedby refid="Trajectory_8cpp" local="yes">src/HolonomicLib/Pathing/Path/Trajectory.cpp</includedby>
     <incdepgraph>
@@ -23,7 +24,7 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="4">
+      <node id="2">
         <label>include/HolonomicLib/API.hpp</label>
         <link refid="API_8hpp"/>
       </node>
@@ -31,6 +32,8 @@
         <label>include/HolonomicLib/Pathing/Path/Trajectory.hpp</label>
         <link refid="Trajectory_8hpp"/>
         <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
@@ -43,10 +46,12 @@
         <label>src/HolonomicLib/Chassis/Controller/AsyncHolonomicChassisController.cpp</label>
         <link refid="AsyncHolonomicChassisController_8cpp"/>
       </node>
-      <node id="2">
+      <node id="3">
         <label>include/HolonomicLib/Pathing/Geometry/Pose.hpp</label>
         <link refid="Pose_8hpp"/>
-        <childnode refid="3" relation="include">
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
@@ -55,10 +60,10 @@
         <label>src/HolonomicLib/Pathing/Geometry/Pose.cpp</label>
         <link refid="Pose_8cpp"/>
       </node>
-      <node id="3">
+      <node id="4">
         <label>include/HolonomicLib/Chassis/Controller/AsyncHolonomicChassisController.hpp</label>
         <link refid="AsyncHolonomicChassisController_8hpp"/>
-        <childnode refid="4" relation="include">
+        <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>

@@ -59,6 +59,8 @@
       <node id="7">
         <label>include/HolonomicLib/Pathing/Path/DiscretePath.hpp</label>
         <link refid="DiscretePath_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
@@ -69,6 +71,8 @@
       <node id="5">
         <label>include/HolonomicLib/Pathing/Path/CubicBezier.hpp</label>
         <link refid="CubicBezier_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
@@ -91,6 +95,8 @@
       <node id="8">
         <label>include/HolonomicLib/Pathing/Path/SimplePath.hpp</label>
         <link refid="SimplePath_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
         <childnode refid="9" relation="include">
         </childnode>
       </node>

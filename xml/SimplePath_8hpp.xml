@@ -3,6 +3,7 @@
   <compounddef id="SimplePath_8hpp" kind="file" language="C++">
     <compoundname>SimplePath.hpp</compoundname>
     <includes refid="DiscretePath_8hpp" local="yes">DiscretePath.hpp</includes>
+    <includedby refid="API_8hpp" local="yes">include/HolonomicLib/API.hpp</includedby>
     <includedby refid="SimplePath_8cpp" local="yes">src/HolonomicLib/Pathing/Path/SimplePath.cpp</includedby>
     <incdepgraph>
       <node id="9">
@@ -101,6 +102,10 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
+        <label>include/HolonomicLib/API.hpp</label>
+        <link refid="API_8hpp"/>
+      </node>
+      <node id="3">
         <label>src/HolonomicLib/Pathing/Path/SimplePath.cpp</label>
         <link refid="SimplePath_8cpp"/>
       </node>
@@ -108,6 +113,8 @@
         <label>include/HolonomicLib/Pathing/Path/SimplePath.hpp</label>
         <link refid="SimplePath_8hpp"/>
         <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
