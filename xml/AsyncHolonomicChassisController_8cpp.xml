@@ -195,7 +195,7 @@
 <codeline lineno="33"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classHolonomicLib_1_1AsyncHolonomicChassisController_1a876a5a913b687017ca4f99d44d37d1fb" kindref="member">lock</ref>.take(5);</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classHolonomicLib_1_1StateMachine_1a9dbf72721774a28d20d5f38cc28f4016" kindref="member">setState</ref>(<ref refid="namespaceHolonomicLib_1afed0dfbd97b270c1dc11f0b884f915bdaf219b2ab91a60a48dd0edb233d375a11" kindref="member">ChassisState::MOVING_TO_POINT</ref>);</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classHolonomicLib_1_1AsyncHolonomicChassisController_1ae1edcd9d7d6bd7ebaef38acc0096bbb7" kindref="member">resetControllers</ref>();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classHolonomicLib_1_1AsyncHolonomicChassisController_1ae1edcd9d7d6bd7ebaef38acc0096bbb7" kindref="member">resetControllers</ref>();</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classHolonomicLib_1_1AsyncHolonomicChassisController_1af14d0dca89b59aae206439e02ad33fa0" kindref="member">endPose</ref><sp/>=<sp/>ipose;</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classHolonomicLib_1_1AsyncHolonomicChassisController_1a876a5a913b687017ca4f99d44d37d1fb" kindref="member">lock</ref>.give();</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
