@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="22" column="5" bodyfile="src/HolonomicLib/Pathing/Geometry/Point.cpp" bodystart="4" bodyend="7"/>
+        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="22" column="5" bodyfile="src/HolonomicLib/Pathing/Geometry/Translation.cpp" bodystart="4" bodyend="7"/>
       </memberdef>
       <memberdef kind="function" id="classHolonomicLib_1_1Translation_1a96808cf7a3b7daaf3ad083d53565e1eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="24" column="5" bodyfile="src/HolonomicLib/Pathing/Geometry/Point.cpp" bodystart="9" bodyend="12"/>
+        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="24" column="5" bodyfile="src/HolonomicLib/Pathing/Geometry/Translation.cpp" bodystart="9" bodyend="12"/>
       </memberdef>
       <memberdef kind="function" id="classHolonomicLib_1_1Translation_1a12d073ffd3e6c5699d12dccd657b5b2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="26" column="5" bodyfile="src/HolonomicLib/Pathing/Geometry/Point.cpp" bodystart="14" bodyend="17"/>
+        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="26" column="5" bodyfile="src/HolonomicLib/Pathing/Geometry/Translation.cpp" bodystart="14" bodyend="17"/>
       </memberdef>
       <memberdef kind="function" id="classHolonomicLib_1_1Translation_1a5bbf1111042cdac145e51c8125f80251" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="30" column="20" bodyfile="src/HolonomicLib/Pathing/Geometry/Point.cpp" bodystart="19" bodyend="21"/>
+        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="30" column="20" bodyfile="src/HolonomicLib/Pathing/Geometry/Translation.cpp" bodystart="19" bodyend="21"/>
       </memberdef>
       <memberdef kind="function" id="classHolonomicLib_1_1Translation_1acc826a6cb6a6ecb21c7743d30f97d095" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>okapi::QLength</type>
@@ -143,7 +143,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="32" column="20" bodyfile="src/HolonomicLib/Pathing/Geometry/Point.cpp" bodystart="23" bodyend="25"/>
+        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="32" column="20" bodyfile="src/HolonomicLib/Pathing/Geometry/Translation.cpp" bodystart="23" bodyend="25"/>
       </memberdef>
       <memberdef kind="function" id="classHolonomicLib_1_1Translation_1a3f20a9e03662002c6951437d829208ed" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classHolonomicLib_1_1Translation" kindref="compound">Translation</ref></type>
@@ -160,7 +160,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="34" column="17" bodyfile="src/HolonomicLib/Pathing/Geometry/Point.cpp" bodystart="27" bodyend="29"/>
+        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="34" column="17" bodyfile="src/HolonomicLib/Pathing/Geometry/Translation.cpp" bodystart="27" bodyend="29"/>
       </memberdef>
       <memberdef kind="function" id="classHolonomicLib_1_1Translation_1a6311a569792e7c7af17d3169a30d524d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classHolonomicLib_1_1Translation" kindref="compound">Translation</ref></type>
@@ -177,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="36" column="17" bodyfile="src/HolonomicLib/Pathing/Geometry/Point.cpp" bodystart="31" bodyend="33"/>
+        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="36" column="17" bodyfile="src/HolonomicLib/Pathing/Geometry/Translation.cpp" bodystart="31" bodyend="33"/>
       </memberdef>
       <memberdef kind="function" id="classHolonomicLib_1_1Translation_1ab8703ecf44599d4d8bad75737f26167e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classHolonomicLib_1_1Translation" kindref="compound">Translation</ref></type>
@@ -190,7 +190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="38" column="17" bodyfile="src/HolonomicLib/Pathing/Geometry/Point.cpp" bodystart="35" bodyend="37"/>
+        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="38" column="17" bodyfile="src/HolonomicLib/Pathing/Geometry/Translation.cpp" bodystart="35" bodyend="37"/>
       </memberdef>
       <memberdef kind="function" id="classHolonomicLib_1_1Translation_1aadc4a038ec52153b507114f31e8159e7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classHolonomicLib_1_1Translation" kindref="compound">Translation</ref></type>
@@ -207,7 +207,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="40" column="17" bodyfile="src/HolonomicLib/Pathing/Geometry/Point.cpp" bodystart="39" bodyend="41"/>
+        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="40" column="17" bodyfile="src/HolonomicLib/Pathing/Geometry/Translation.cpp" bodystart="39" bodyend="41"/>
       </memberdef>
       <memberdef kind="function" id="classHolonomicLib_1_1Translation_1ad19f2341cb25a4f443e38a5646ba063f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>okapi::QArea</type>
@@ -224,7 +224,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="42" column="18" bodyfile="src/HolonomicLib/Pathing/Geometry/Point.cpp" bodystart="43" bodyend="45"/>
+        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="42" column="18" bodyfile="src/HolonomicLib/Pathing/Geometry/Translation.cpp" bodystart="43" bodyend="45"/>
       </memberdef>
       <memberdef kind="function" id="classHolonomicLib_1_1Translation_1a510a05887e1bea08312b9f90de96657b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classHolonomicLib_1_1Translation" kindref="compound">Translation</ref></type>
@@ -241,7 +241,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="44" column="17" bodyfile="src/HolonomicLib/Pathing/Geometry/Point.cpp" bodystart="47" bodyend="49"/>
+        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="44" column="17" bodyfile="src/HolonomicLib/Pathing/Geometry/Translation.cpp" bodystart="47" bodyend="49"/>
       </memberdef>
       <memberdef kind="function" id="classHolonomicLib_1_1Translation_1a167867c9f4982b05df0da6bb63e4bc50" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -258,7 +258,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="46" column="10" bodyfile="src/HolonomicLib/Pathing/Geometry/Point.cpp" bodystart="51" bodyend="53"/>
+        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="46" column="10" bodyfile="src/HolonomicLib/Pathing/Geometry/Translation.cpp" bodystart="51" bodyend="53"/>
       </memberdef>
       <memberdef kind="function" id="classHolonomicLib_1_1Translation_1a1b1eb85374d19cf31cf73c588a3803ad" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -275,7 +275,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="48" column="10" bodyfile="src/HolonomicLib/Pathing/Geometry/Point.cpp" bodystart="55" bodyend="57"/>
+        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="48" column="10" bodyfile="src/HolonomicLib/Pathing/Geometry/Translation.cpp" bodystart="55" bodyend="57"/>
       </memberdef>
       <memberdef kind="function" id="classHolonomicLib_1_1Translation_1a944128227c9af51effcad16c8540dfb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -292,7 +292,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="50" column="10" bodyfile="src/HolonomicLib/Pathing/Geometry/Point.cpp" bodystart="59" bodyend="61"/>
+        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="50" column="10" bodyfile="src/HolonomicLib/Pathing/Geometry/Translation.cpp" bodystart="59" bodyend="61"/>
       </memberdef>
       <memberdef kind="function" id="classHolonomicLib_1_1Translation_1a47eafa4235e35a1d009ec1b65b82eac1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>okapi::QAngle</type>
@@ -305,7 +305,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="52" column="19" bodyfile="src/HolonomicLib/Pathing/Geometry/Point.cpp" bodystart="73" bodyend="75"/>
+        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="52" column="19" bodyfile="src/HolonomicLib/Pathing/Geometry/Translation.cpp" bodystart="73" bodyend="75"/>
       </memberdef>
       <memberdef kind="function" id="classHolonomicLib_1_1Translation_1afc587a60af1bdc33183a4fb9b42274d7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::pair&lt; double, double &gt;</type>
@@ -318,7 +318,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="54" column="15" bodyfile="src/HolonomicLib/Pathing/Geometry/Point.cpp" bodystart="63" bodyend="71"/>
+        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="54" column="15" bodyfile="src/HolonomicLib/Pathing/Geometry/Translation.cpp" bodystart="63" bodyend="71"/>
       </memberdef>
       <memberdef kind="function" id="classHolonomicLib_1_1Translation_1a18519f00e30e11a45521263ce880cbaa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>okapi::QLength</type>
@@ -335,7 +335,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="56" column="20" bodyfile="src/HolonomicLib/Pathing/Geometry/Point.cpp" bodystart="77" bodyend="79"/>
+        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="56" column="20" bodyfile="src/HolonomicLib/Pathing/Geometry/Translation.cpp" bodystart="77" bodyend="79"/>
       </memberdef>
       <memberdef kind="function" id="classHolonomicLib_1_1Translation_1af67321b3564ddfe6b28bd65fdbff43e8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>okapi::QAngle</type>
@@ -352,7 +352,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="58" column="19" bodyfile="src/HolonomicLib/Pathing/Geometry/Point.cpp" bodystart="81" bodyend="83"/>
+        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="58" column="19" bodyfile="src/HolonomicLib/Pathing/Geometry/Translation.cpp" bodystart="81" bodyend="85"/>
       </memberdef>
       <memberdef kind="function" id="classHolonomicLib_1_1Translation_1a4bf1d6568afbfb9c2ed2e25918fad131" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>okapi::QLength</type>
@@ -365,7 +365,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="60" column="20" bodyfile="src/HolonomicLib/Pathing/Geometry/Point.cpp" bodystart="85" bodyend="87"/>
+        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="60" column="20" bodyfile="src/HolonomicLib/Pathing/Geometry/Translation.cpp" bodystart="87" bodyend="89"/>
       </memberdef>
       <memberdef kind="function" id="classHolonomicLib_1_1Translation_1a07cc515ceb5c39db2def8e3ad734f220" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classHolonomicLib_1_1Translation" kindref="compound">Translation</ref></type>
@@ -382,7 +382,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="62" column="17" bodyfile="src/HolonomicLib/Pathing/Geometry/Point.cpp" bodystart="89" bodyend="91"/>
+        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="62" column="17" bodyfile="src/HolonomicLib/Pathing/Geometry/Translation.cpp" bodystart="91" bodyend="93"/>
       </memberdef>
       <memberdef kind="function" id="classHolonomicLib_1_1Translation_1a3bad0aa35d319c2ccf1fe85f9943cf04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -399,7 +399,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="64" column="10" bodyfile="src/HolonomicLib/Pathing/Geometry/Point.cpp" bodystart="93" bodyend="95"/>
+        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="64" column="10" bodyfile="src/HolonomicLib/Pathing/Geometry/Translation.cpp" bodystart="95" bodyend="97"/>
       </memberdef>
       <memberdef kind="function" id="classHolonomicLib_1_1Translation_1aeea43e09b7b50dde9ae779f8cb02cdcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -416,7 +416,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="66" column="10" bodyfile="src/HolonomicLib/Pathing/Geometry/Point.cpp" bodystart="97" bodyend="99"/>
+        <location file="include/HolonomicLib/Pathing/Geometry/Translation.hpp" line="66" column="10" bodyfile="src/HolonomicLib/Pathing/Geometry/Translation.cpp" bodystart="99" bodyend="101"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

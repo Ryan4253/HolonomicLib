@@ -8,7 +8,7 @@
     <includedby refid="Pose_8hpp" local="yes">include/HolonomicLib/Pathing/Geometry/Pose.hpp</includedby>
     <includedby refid="CubicBezier_8hpp" local="yes">include/HolonomicLib/Pathing/Path/CubicBezier.hpp</includedby>
     <includedby refid="DiscretePath_8hpp" local="yes">include/HolonomicLib/Pathing/Path/DiscretePath.hpp</includedby>
-    <includedby refid="Point_8cpp" local="yes">src/HolonomicLib/Pathing/Geometry/Point.cpp</includedby>
+    <includedby refid="Translation_8cpp" local="yes">src/HolonomicLib/Pathing/Geometry/Translation.cpp</includedby>
     <incdepgraph>
       <node id="1">
         <label>include/HolonomicLib/Pathing/Geometry/Translation.hpp</label>
@@ -55,6 +55,10 @@
         <label>include/HolonomicLib/API.hpp</label>
         <link refid="API_8hpp"/>
       </node>
+      <node id="13">
+        <label>src/HolonomicLib/Pathing/Geometry/Translation.cpp</label>
+        <link refid="Translation_8cpp"/>
+      </node>
       <node id="12">
         <label>src/HolonomicLib/Pathing/Path/DiscretePath.cpp</label>
         <link refid="DiscretePath_8cpp"/>
@@ -74,10 +78,6 @@
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-      </node>
-      <node id="13">
-        <label>src/HolonomicLib/Pathing/Geometry/Point.cpp</label>
-        <link refid="Point_8cpp"/>
       </node>
       <node id="7">
         <label>include/HolonomicLib/Pathing/Path/CubicBezier.hpp</label>

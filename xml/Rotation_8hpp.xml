@@ -42,6 +42,10 @@
         <label>include/HolonomicLib/API.hpp</label>
         <link refid="API_8hpp"/>
       </node>
+      <node id="14">
+        <label>src/HolonomicLib/Pathing/Geometry/Translation.cpp</label>
+        <link refid="Translation_8cpp"/>
+      </node>
       <node id="13">
         <label>src/HolonomicLib/Pathing/Path/DiscretePath.cpp</label>
         <link refid="DiscretePath_8cpp"/>
@@ -61,10 +65,6 @@
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-      </node>
-      <node id="14">
-        <label>src/HolonomicLib/Pathing/Geometry/Point.cpp</label>
-        <link refid="Point_8cpp"/>
       </node>
       <node id="8">
         <label>include/HolonomicLib/Pathing/Path/CubicBezier.hpp</label>

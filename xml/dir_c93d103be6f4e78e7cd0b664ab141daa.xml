@@ -2,9 +2,9 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
   <compounddef id="dir_c93d103be6f4e78e7cd0b664ab141daa" kind="dir">
     <compoundname>src/HolonomicLib/Pathing/Geometry</compoundname>
-    <innerfile refid="Point_8cpp">Point.cpp</innerfile>
     <innerfile refid="Pose_8cpp">Pose.cpp</innerfile>
     <innerfile refid="Rotation_8cpp">Rotation.cpp</innerfile>
+    <innerfile refid="Translation_8cpp">Translation.cpp</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

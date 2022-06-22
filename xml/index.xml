@@ -258,11 +258,11 @@
   </compound>
   <compound refid="AsyncHolonomicChassisController_8cpp" kind="file"><name>AsyncHolonomicChassisController.cpp</name>
   </compound>
-  <compound refid="Point_8cpp" kind="file"><name>Point.cpp</name>
-  </compound>
   <compound refid="Pose_8cpp" kind="file"><name>Pose.cpp</name>
   </compound>
   <compound refid="Rotation_8cpp" kind="file"><name>Rotation.cpp</name>
+  </compound>
+  <compound refid="Translation_8cpp" kind="file"><name>Translation.cpp</name>
   </compound>
   <compound refid="CubicBezier_8cpp" kind="file"><name>CubicBezier.cpp</name>
   </compound>
